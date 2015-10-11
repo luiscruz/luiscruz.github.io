@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "0.0.0",
+  "authors": [
+    "Luis Cruz"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "luiscruz.pt.vu",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
