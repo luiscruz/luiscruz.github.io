@@ -81,7 +81,66 @@
                 <small class="list-group-item-text">Strecht, P., <strong>Cruz, L.</strong>, Soares, C., Mendes-Moreira, J., and Abreu, R. (2015). <strong>A comparative study of regression and classification algorithms for modelling students’ academic performance.</strong> In Educational Data Mining 2015.</small>
         </a>
       </div>
+      <h5 class='text-muted'>Publications</h5>
+      <div id="bibtex_display" class="list-group">
+
+        
+      </div>
     </div>
+
+ <textarea id="bibtex_input" style="display:none">
+   @inproceedings{cruz2015wearable,
+     title={A wearable and mobile intervention delivery system for individuals with panic disorder},
+     author={Cruz, Luis and Rubin, Jonathan and Abreu, Rui and Ahern, Shane and Eldardiry, Hoda and Bobrow, Daniel G},
+     booktitle={Proceedings of the 14th International Conference on Mobile and Ubiquitous Multimedia},
+     pages={175--182},
+     year={2015},
+     organization={ACM},
+     url={http://dl.acm.org/citation.cfm?id=2836058}
+   }
+   @article{strecht2015comparative,
+     title={A Comparative Study of Regression and Classification Algorithms for Modelling Students' Academic Performance},
+     author={Strecht, Pedro and Cruz, Luis and Soares, Carlos and Mendes-Moreira, Joao and Abreu, Rui},
+     journal={Educational Data Mining 2015},
+     year={2015}
+   }
+   @inproceedings{cruz2011generic,
+     title={Generic optimization of humanoid robots' behaviours},
+     author={Cruz, Luis and Reis, Luis Paulo and Rei, Luis},
+     booktitle={15th Portuguese Conference on Artificial Intelligence, EPIA},
+     pages={385--397},
+     year={2011}
+   }
+   @article{cruz2012optimization,
+     title={Optimization approach for the development of humanoid robots’ behaviors},
+     author={Cruz, Luis and Reis, Luis Paulo and Lau, Nuno and Sousa, Armando},
+     journal={Advances in Artificial Intelligence--IBERAMIA 2012},
+     pages={491--500},
+     year={2012},
+     publisher={Springer Berlin Heidelberg},
+     url={http://link.springer.com/chapter/10.1007/978-3-642-34654-5_50}
+   }
+ </textarea>
+ 
+ <div class="bibtex_template list-group-item list-group-item-default" >
+      <small class="list-group-item-text">
+        <span class="author"></span> (<span class="year"></span>).
+        <strong><span class="title"></span></strong>.
+        <span class="if booktitle">
+          In <i><span class="booktitle"></span></i><span class="if pages"> (pp. <span class="pages"></span>)</span>.
+        </span>
+        <span class="if journal">
+          <i><span class="journal"></span></i><span class="if pages"> (pp. <span class="pages"></span>)</span>.
+        </span>
+        <span class="if publisher"><span class="publisher"></span>.</span>
+      </small>
+      <span class="if url">
+        <a class="url"><span class="badge">WEB</span></a>
+      </span>
+      
+</div>
+ 
+
 
  
 <!--
@@ -100,6 +159,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
 		<script type="text/javascript" src="js/jquery.dcspamless.js"></script>
+    <script type="text/javascript" src="js/bibtex_js.js"></script>
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
@@ -107,8 +167,9 @@
     <script>
     $(function(){
     	$('.email').dcSpamless();
+      bibtex_js_draw();
     });
-    
+      
     </script>
   </body>
 </html>
