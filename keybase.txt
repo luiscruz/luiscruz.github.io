@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/luiscruz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://luiscruz.github.io
+  * I am luiscruz (https://keybase.io/luiscruz) on keybase.
+  * I have a public key with fingerprint FA17 CC97 F92D CD26 E1AD  F396 41B1 395B CEDD C3EA
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010de5bcbfaf4bd89b71bd416cc80cf64a317bab5a5bc550ae7b1632b84f02cc230a",
+            "fingerprint": "fa17cc97f92dcd26e1adf39641b1395bceddc3ea",
+            "host": "keybase.io",
+            "key_id": "41b1395bceddc3ea",
+            "kid": "01010de5bcbfaf4bd89b71bd416cc80cf64a317bab5a5bc550ae7b1632b84f02cc230a",
+            "uid": "8a4e21b44d458b025338e6abd869a719",
+            "username": "luiscruz"
+        },
+        "service": {
+            "hostname": "luiscruz.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1471519679,
+    "expire_in": 157680000,
+    "prev": "13bf3c36a41a29fe4aa4fbcb0e862360afb5d6264a05347997f412441d0f5921",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJbSBVBGD5esjwYZJAUZcJWD6XFzu7s7SQJmUQm2Q3iSHGa2Zk9btq5
+7O4x9WDQIXsIuxAVRViBFJaCSURWRllCkEckQ8swCiPCiB6ilLCiWauX6LGZh2H+
++b5vvv+b6Z2d5vGm5L/3J2R+vCKlr6c55tlx49y9OIfDpI7zxbkqOr3QakJtJ1Bl
+Es7H8YBNQiWsYwMZEBNVwwrABAJZ11VeN2SIRKBghCXEQJLEI6pgIIsCVqHBC7ou
+iDziCjjDDAWpFbHMkMNkDQQUXdcUQxOITgSZAkQMUZMhwEDUmBAlRBepS6wM2y6D
+mcPIpqvMMKuxTWDa3j/w/9l3bFpORZAKAENIoKRiXpBEUaUyYrKyhhSguUCbWiG0
+lzJ0dcy0dStWzzUUcKxaY+rUDdbt5C/EqqDpVMbwr64iVtgJ6+Fqdl7pOBHb5/Kd
+uohL2Edx4LdUAJshwtJkjBpq2WY4xPkAQ+qO6WoDqAAJaLKiFXC0NmJaNGC6CEmR
+VZ4N9x5awySBiA1RF2UEARI0g0KEoMHy4qkqC6LMIwNLRBZYULwkQkVjrwWBACEg
+vCFpAuDc5qKhMOeDzCYKMknbDIaQE7Mo1/Dg/s50T4rXkzEj1f1lHm/mnD9/7+6t
+WZ5ke+vUu0TfkaG4FOq69KrqcDDRmX29pKyWXxgnRVtf1/sqbwYOfVicxjft7ju5
+dGNufTSjuy23d7v/ZW1nTrJx/OKGwtQFOVOjNaX+tZ/PPPz0+Bo/VCYcvDP7h39g
+81hy+Glj3bsJT7H/xLrj+XnmlraV8xJtk9E3k3NTbw1ue7Tm6LMrwcmk91txdm/J
+6gnja3R9+dv+I6cezBlMtp7e1PX4asbKQk3bNTpYtKTpSXP+85acC8cuj+8b+bJ/
+/sxuuz+u3m4vv1yO8jpyrU896XZDciDzVGnHosKssbKPe9pLB04Pf++oIFP6+cYX
+B0ZWZJadLYCR5SOGkq3s3BJd1pL1E7qmSKE=
+=srEZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/luiscruz
+
+==================================================================
