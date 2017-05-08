@@ -1,0 +1,28 @@
+{
+  "name": "luiscruz",
+  "version": "1.0.0",
+  "description": "Luis Cruz's website",
+  "main": "index.html",
+  "dependencies": {
+    "citation-js": "^0.3.0-4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python -m SimpleHTTPServer",
+    "preprocess": "node --harmony-async-await render.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscruz/luiscruz.github.io.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Luis Cruz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luiscruz/luiscruz.github.io/issues"
+  },
+  "homepage": "https://luiscruz.github.io"
+}
