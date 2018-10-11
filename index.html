@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
-	<link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css" type="text/css">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -28,19 +27,19 @@
 	      <img class="media-object pull-left" src="img/profile.jpg">
 	      <div class="media-body"><h1 class="">Hello, I'm Luís :)</h1>
 		      <a class="btn btn-default btn-xs" target="_blank" role="button" href="http://fb.com/luismirandacruz">
-				  <big><i class="ion-social-facebook"></i></big>&nbsp; Facebook
+				  <ion-icon name="logo-facebook"></ion-icon> Facebook
 			  </a>
 			  <a class="btn btn-default btn-xs" target="_blank" role="button" href="https://www.linkedin.com/in/luismirandacruz">
-				  <big><i class="ion-social-linkedin large"></i></big>&nbsp; LinkedIn
+				  <ion-icon name="logo-linkedin"></ion-icon> LinkedIn
 			  </a>
 		      <a class="btn btn-default btn-xs" target="_blank" role="button" href="http://github.com/luiscruz">
-				  <big><i class="ion-social-github"></i></big>&nbsp; Github
+				  <ion-icon name="logo-github"></ion-icon> Github
 			  </a>
 		      <a class="btn btn-default btn-xs" target="_blank" role="button" href="https://scholar.google.com/citations?user=O13oaH0AAAAJ&amp;hl=en">
-				  <big><i class="ion-social-google"></i></big>&nbsp; Google Scholar
+				  <ion-icon name="logo-google"></ion-icon> Google Scholar
 			  </a>
 		      <a class="btn btn-default btn-xs" target="_blank" role="button" href="https://twitter.com/luismcruz">
-                  <big><i class="ion-social-twitter"></i></big>&nbsp; Twitter
+                  <ion-icon name="logo-twitter"></ion-icon> Twitter
               </a>
 		      <a class="btn btn-default btn-xs" target="_blank" rel="noopener noreferrer" role="button" href="https://orcid.org/0000-0002-1615-355X">
                   <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;margin-bottom:.2em;" alt="ORCID iD icon"><big></big>ORCID
@@ -68,10 +67,10 @@
 
     <div class="container">
       <div class="list-group">
-        <a href="https://www.slideshare.net/LuisCruz429/data-cleaning-delix-winter-school" target="_blank" class="list-group-item ">
-          <span class="badge">SlideShare</span>
-                <h4 class="list-group-item-heading">Slides of my lecture on <strong>Data Cleaning</strong> at DELix 2018</h4>
-                <small class="list-group-item-text">Updated on February, 2018.</small>
+        <a href="https://tqrg.github.io/energy-patterns/" target="_blank" class="list-group-item ">
+          <span class="badge">Web</span>
+                <h4 class="list-group-item-heading">Energy Patterns for Mobile Apps</h4>
+                <small class="list-group-item-text">Online Catalog.</small>
         </a>
         <a href="https://www.dropbox.com/s/kgr10rkh3n0gasv/cvLuisCruz%20en.pdf?dl=1" target="_blank" class="list-group-item list-group-item-info">
           <span class="badge">PDF</span>
@@ -208,6 +207,16 @@
     
 
 </div></div>
+      <h5 class="text-muted">Extras</h5>
+      <div class="list-group">
+        <a href="https://www.slideshare.net/LuisCruz429/data-cleaning-delix-winter-school" target="_blank" class="list-group-item ">
+          <span class="badge">SlideShare</span>
+                <h4 class="list-group-item-heading">Slides of my lecture on <strong>Data Cleaning</strong> at DELix 2018</h4>
+                <small class="list-group-item-text">Updated on February, 2018.</small>
+        </a>
+      </div>
+      <h5 class="text-muted">Publications</h5>
+      
     </div>
 
  <textarea id="bibtex_input" style="display:none">   @inproceedings{cruz2018using,
@@ -302,6 +311,7 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
     <script>
        $(function(){
           $('.email').dcSpamless();
