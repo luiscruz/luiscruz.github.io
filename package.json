@@ -9,8 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "python -m SimpleHTTPServer",
-    "preprocess": "node --harmony-async-await render.js"
+    "start": "sh render.sh",
   },
   "repository": {
     "type": "git",
