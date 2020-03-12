@@ -1,0 +1,11 @@
+highlighter: rouge
+future: true
+
+relative_permalinks: false
+
+title : Luís Cruz
+tagline:
+author :
+  name : Luís Cruz
+  github : luiscruz
+  twitter : luismcruz
