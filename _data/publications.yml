@@ -13,6 +13,13 @@
   url: "https://luiscruz.github.io/papers/cruz2019attention.pdf"
   slides: "https://speakerdeck.com/luiscruz/do-energy-oriented-changes-hinder-maintainability"
 
+- key: cruz2019improving,
+  author: Luis Cruz and Rui Abreu
+  title: Improving Energy Efficiency Through Automatic Refactoring
+  journal: Journal of Software Engineering and Research Development (JSERD)
+  url: "https://doi.org/10.5753/jserd.2019.17"
+  year: 2019
+
 - key: cruz2019emaas
   author: Luis Cruz, Rui Abreu
   booktitle: "41st International Conference on Software Engineering: New Ideas and Emerging Technologies Results Track (ICSE-NIER)"
