@@ -3,18 +3,18 @@ layout: post
 author: Luís Cruz
 title: Guidelines for effective data visualizations in academic papers. 
 summary: "This article presents basic guidelines to help create effective visualizations. 
-There are no golden rules, but there are some basic guidelines that will surely help. This article pinpoints guidelines that I have found useful based on my experience as academic. I wrote this article having academic writing in mind, but I find it very important for any other type of communication."
+There are no golden rules, but there are some basic guidelines that I find useful based on my experience as academic. I wrote this article having academic writing in mind, but it is certainly useful for any type of communication."
 ---
 
-In any research field, academics devote a considerable part of their efforts to deliver high-quality articles with engaging narratives to communicate their latest findings. This is a quintessential requirement to have their research published in top-tier academic conferences.
+In any research field, we academics devote a considerable part of our work to deliver high-quality articles. We put our best efforts to create engaging narratives that communicate our latest findings. This is a quintessential requirement to publish our research in top-tier academic conferences.
 
-Many academics have written about writing, best practices, or mere tips to help junior researchers avoid common mistakes. For example, it took me some time to understand how to use hyphen, en dash, and em dash properly ([Wikipedia can help you there](https://nps.edu/web/gwc/dashes-and-hyphens)). If you are interest in learning more about these tips, I can recommend [Mark Harman's Draft Guidelines], [Arie van Derusen's Recommendations].
+Many academics have written about writing best practices or mere tips to help junior researchers avoid common mistakes. These are quite useful. For example, it is quite common to see students misusing hyphen, en dash, and em dash properly ([Wikipedia can help you there](https://nps.edu/web/gwc/dashes-and-hyphens)). If you are interested in learning about writing tips, [Mark Harman's Draft Guidelines] and [Arie van Derusen's Recommendations] are definitely great reads.
 
-But a good article is not only made of text. It typically comes with figures that help presenting results and are nicely tied to the narrative. Sometimes, figures are the only way researchers have to present their results without creating a big mess of boring numbers in a table. When done nicely, figures speak by themselves, even before someone reads the whole document. This is very important because we want to give reviewers a good first impression.
+But a good article is not only made of text. It typically comes with figures that help presenting results and are nicely tied to the narrative. Very often, figures are the only way researchers have to present results without creating a big mess of boring numbers in a table. When done nicely, figures speak by themselves, even before someone reads the whole document. This is very important because we want to give readers (including reviewers!) a good first impression.
 
 While reading academic papers, I started being triggered by some visualizations that did not feel right. Some times it was really difficult to understand them, even after reading the whole text. Since I never had any formal education in this topic, I decided to learn more about it.
 
-While reading about this, I have found that there was one main person that kept being referenced: [Edward Tufte] and his work written in 1986 about principles for effective information visualizations. I immediately bought a second-hand copy of his book *The Visual Display of Quantitative Information*, and read it on the same day I got it.
+While reading about this, I realised that there is one main person that keeps being referenced: [Edward Tufte] with his work written in 1986 about principles for effective information visualizations. I immediately bought a second-hand copy of his book *The Visual Display of Quantitative Information* and read it on the same day I got it.
 
 ![The Visual Display of Quantitative Information by Edward Tufte (1986).](/img/blog/tufte_book.jpg){: class="center-block" width="200px" }
 
@@ -22,7 +22,7 @@ While reading about this, I have found that there was one main person that kept 
 
 The first thing I learned from it was that there are no "golden rules" that work for all your visualizations. Visualization are very heterogenous. They communicate all types of data using color, shapes, angles, size, shade, and other visual variables.
 
-The second thing I learned is that, while analyzing "golden rules", you can develop critical thinking and intuition that can help you create effective information visualizations.
+The second thing I learned was that, while analyzing "golden rules", you develop critical thinking and intuition that helps you create effective information visualizations.
 Here are the principles for graphical excellence that Edward Tufte proposes in his book:
 
 1. Above all else, show the data. Create the simplest graph that conveys the information you want to present.
@@ -90,13 +90,13 @@ This distortion is often used to amplify results, misleading the reader. The sam
 - **Care for colorblindness.** It is estimated that colorblindness affects 8% of men worldwide. Thus, it is important to make sure that when the usage of color to highlight data patterns is perceptible by everyone. For most people affected by this condition, red and green are indistinguishable – use this colors with care. Sometimes it is hard to avoid using red and green, as they are typically used to denote good and bad, success and failure, etc. In these cases, you may want to pick red and green colors that differ in their saturation level. Test your images with tools like [Coblis].
 
 And that's all for now. Thanks for reading.
-I would like to hear about your experiences while creating data visualizations and if these guidelines work for you. [Share your comments on Twitter] and I'll do my best to reply.
+[Connect via Twitter](https://twitter.com/luismcruz) and share your experience while creating data visualizations and if these guidelines work for you.
 
 
 ### Recommended Readings
 
-- The Visual Display of Quantitative Information
-- Storytelling with data.
+- Edward Tufte (1983). [The Visual Display of Quantitative Information](https://www.goodreads.com/book/show/17744.The_Visual_Display_of_Quantitative_Information). Graphics Press.
+- Cole Nussbaumer Knaflic (2015). [Storytelling with data](https://www.goodreads.com/book/show/26535513-storytelling-with-data). Wiley
 - Google. [Material Design Docs].
 - Christa Kelleher, Thorsten Wagener (2010). [Ten guidelines for effective data visualization in scientific publications](https://doi.org/10.1016/j.envsoft.2010.12.006). 
 - Ryan Sleeper. [Data-Ink Ratio Animation and How to Apply it in Tableau].
