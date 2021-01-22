@@ -9,3 +9,17 @@
 #jumbotron .btn-default{
 	color:#557bA0;
 }
+
+
+#post #content{
+  font-size: 18px;
+  text-align:justify;
+}
+#post.container{
+  max-width: 45em;
+}
+#post img{
+/*  display: block;
+  margin-left: auto;
+  margin-right: auto;
+*/}

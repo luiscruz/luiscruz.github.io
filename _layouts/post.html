@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div id="post" class='container'>
+  <a href="/">← Home</a> | <a href="/">Blog</a>
+<h1>{{ page.title }}<br/>
+  <small>{{ page.date | date_to_string }} - {{ page.author }}</small></h1>
+  
+<div id="content">
+<p class="lead">  
+<em>{{page.summary}}</em>
+</p>
+<br/>
+
+{{ content }}
+</div>
+</div>
