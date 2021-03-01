@@ -2,9 +2,9 @@
 layout: default
 ---
 <div id="post" class='container'>
-  <a href="/">← Home</a> | <a href="/">Blog</a>
+  <a href="/">← Home</a> <!-- | <a href="/blog">Blog</a> -->
 <h1>{{ page.title }}<br/>
-  <small>{{ page.date | date_to_string }} - {{ page.author }}</small></h1>
+  <small>{{ page.date | date_to_string }} - <a href="/">{{ page.author }}</a></small></h1>
   
 <div id="content">
 <p class="lead">  
