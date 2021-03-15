@@ -1,3 +1,10 @@
+- key: cruz2021,
+  author: Bart van Oort, Luís Cruz, Maurício Aniche, Arie van Deursen
+  journal: WAIN'21 - 1st Workshop on AI Engineering – Software Engineering for AI
+  title: The Prevalence of Code Smells in Machine Learning projects
+  url: "https://luiscruz.github.io/papers/cruz2021prevelance.pdf"
+  year: 2021
+  
 - key: cruz2019uiframeworks,
   author: Luis Cruz and Rui Abreu
   journal: IEEE Transactions on Software Engineering
