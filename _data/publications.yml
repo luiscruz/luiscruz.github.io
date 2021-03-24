@@ -9,8 +9,9 @@
   author: Luis Cruz and Rui Abreu
   journal: IEEE Transactions on Software Engineering
   title: On the Energy Footprint of Mobile Testing Frameworks
-  url: "https://luiscruz.github.io/papers/cruz2019on.pdf"
+  url: "https://luiscruz.github.io/papers/cruz2019do.pdf"
   year: 2019
+  slides: "https://www.slideshare.net/LuisCruz429/on-the-energy-footprint-of-mobile-testing-frameworks"
 
 - key: cruz2019do
   author: Luis Cruz and Rui Abreu and John Grundy and Li Li and Xin Xia
@@ -40,6 +41,7 @@
   title: "To the Attention of Mobile Software Developers: Guess What, Test your App!"
   year: 2019
   url: "https://luiscruz.github.io/papers/cruz2019attention.pdf"
+  slides: "https://www.slideshare.net/LuisCruz429/to-the-attention-of-mobile-software-developers-guess-what-test-your-app"
   
 - key: cruz2019catalog
   author: Luis Cruz and Rui Abreu
