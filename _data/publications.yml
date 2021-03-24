@@ -9,7 +9,7 @@
   author: Luis Cruz and Rui Abreu
   journal: IEEE Transactions on Software Engineering
   title: On the Energy Footprint of Mobile Testing Frameworks
-  url: "https://luiscruz.github.io/papers/cruz2019do.pdf"
+  url: "https://luiscruz.github.io/papers/cruz2019on.pdf"
   year: 2019
   slides: "https://www.slideshare.net/LuisCruz429/on-the-energy-footprint-of-mobile-testing-frameworks"
 
@@ -18,7 +18,7 @@
   booktitle: ICSME
   title: Do Energy-oriented Changes Hinder Maintainability?
   year: 2019
-  url: "https://luiscruz.github.io/papers/cruz2019attention.pdf"
+  url: "https://luiscruz.github.io/papers/cruz2019do.pdf"
   slides: "https://speakerdeck.com/luiscruz/do-energy-oriented-changes-hinder-maintainability"
 
 - key: cruz2019improving,
