@@ -98,7 +98,7 @@ This distortion is often used to amplify results, misleading the reader. The sam
 
 And that's all, folks. Don't forget that *for every rule there is an exception* – after all, that's
 what makes it fun. Thanks for reading. I look forward to hearing about your thoughts and how
-these guidelines may or may not help you create data visualizations. [Connect via
+these guidelines may or may not help you create data visualizations. [Connect on
 Twitter](https://twitter.com/luismcruz) and share your experience.
 
 
