@@ -1,32 +1,4 @@
-- key: haakman2021ai,
-  author: Mark Haakman, Luís Cruz, Hennie Huijgens, Arie van Deursen
-  journal: Empirical Software Engineering
-  title: AI Lifecycle Models Need to be Revised. An Exploratory Study in Fintech
-  url: "https://link.springer.com/article/10.1007/s10664-021-09993-1"
-  year: 2021
   
-- key: cruz2021,
-  author: Bart van Oort, Luís Cruz, Maurício Aniche, Arie van Deursen
-  journal: WAIN'21 - 1st Workshop on AI Engineering – Software Engineering for AI
-  title: The Prevalence of Code Smells in Machine Learning projects
-  url: "https://luiscruz.github.io/papers/cruz2021prevelance.pdf"
-  year: 2021
-  video: "https://youtu.be/TbgawiiYwJQ"
-
-- key: xie2021systematic
-  title: Systematic Mapping Study on the Machine Learning Lifecycle
-  author: Yuanhao Xie, Luís Cruz, Petra Heck, Jan Rellermeyer
-  journal: WAIN'21 - 1st Workshop on AI Engineering – Software Engineering for AI
-  year: 2021
-  url: https://arxiv.org/abs/2103.10248
-  
-- key: cruz2019uiframeworks,
-  author: Luis Cruz and Rui Abreu
-  journal: IEEE Transactions on Software Engineering
-  title: On the Energy Footprint of Mobile Testing Frameworks
-  url: "https://luiscruz.github.io/papers/cruz2019on.pdf"
-  year: 2019
-  slides: "https://www.slideshare.net/LuisCruz429/on-the-energy-footprint-of-mobile-testing-frameworks"
 
 - key: cruz2019do
   author: Luis Cruz and Rui Abreu and John Grundy and Li Li and Xin Xia
@@ -64,6 +36,16 @@
   title: Catalog of Energy Patterns for Mobile Applications
   year: 2019
   url: "https://luiscruz.github.io/papers/cruz2019catalog.pdf"
+  bibtex: "@article{cruz2019catalog,
+  title={Catalog of energy patterns for mobile applications},
+  author={Cruz, Luis and Abreu, Rui},
+  journal={Empirical Software Engineering},
+  volume={24},
+  number={4},
+  pages={2209--2235},
+  year={2019},
+  publisher={Springer}
+}"
 
 - key: cruz2018using
   author: Luis Cruz and Rui Abreu

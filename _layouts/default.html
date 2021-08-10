@@ -14,15 +14,11 @@
       {% endif %}">
   
   <meta property="og:description"
-      content="{% if page.summary %}
-          {{ page.summary | strip_html | strip_newlines | truncate: 160 }}
-        {% else %}
-          {{ site.description }}
-        {% endif %}">
+      content="{% if page.summary or page.abstract %}{{ page.summary | append: page.abstract | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:site" content="@luismcruz" />
-  <meta name="twitter:description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.summary or page.abstract %}{{ page.summary | append: page.abstract | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   
   {% if page.title %}
     <!-- Article specific OG data -->

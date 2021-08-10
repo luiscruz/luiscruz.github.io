@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_md
 title: Blog
 ---
 <h1>Latest Posts</h1>
@@ -8,7 +8,7 @@ title: Blog
   {% for post in site.posts %}
     {% unless post.invisible %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.summary }}
     </li>
     {% endunless %}

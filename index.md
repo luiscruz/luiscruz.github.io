@@ -2,7 +2,7 @@
 layout: default
 ---
 
-    <div id='jumbotron' class="jumbotron">
+<div id='jumbotron' class="jumbotron">
 		<div class='container'>
 	      <div class="media">
 	      <img class="media-object pull-left" width="120px" src="img/profile2.jpg"/>
@@ -47,7 +47,9 @@ layout: default
 		</div>
     </div>
 
-    <div class="container" >
+{% include menu.md %}
+
+<div class="container" >
       <div class="list-group">
         <a href="https://luiscruz.github.io/papers/cruz2019tools.pdf" target="_blank" class="list-group-item ">
           <span class="badge">Ph.D. Thesis</span>
@@ -70,44 +72,15 @@ layout: default
                 <small class="list-group-item-text">Updated on October, 2020.</small>
         </a>
       </div>
-      <h5 class="text-muted">Publications</h5>
 
-      <div id="bibtex_display" class="list-group">
-       {% for publication in site.data.publications %}
-     <div class="list-group-item list-group-item-default" >
-          <small class="list-group-item-text">
-            {% if publication.award %}
-              <span class="label label-primary pull-right">{{publication.award}}</span>
-            {% endif %}
-            {{publication.author}} ({{publication.year}}).
-            <a href={{publication.url}} target="_blank"><strong>{{publication.title}}</strong></a>.
-            {% if publication.booktitle %}
-              In <i>{{publication.booktitle}}</i>{% if publication.pages %} (pp. {{publication.pages}}){% endif %}.
-            {% endif %}
-            {% if publication.journal %}
-              <i>{{publication.journal}}</span></i>{% if publication.pages %} (pp. {{publication.pages}}){% endif %}.
-            {% endif %}
-            {% if publication.publisher %}{{publication.publisher}}.{% endif %}
-          </small>
-          {% if publication.slides %}
-            <a href="{{publication.slides}}" target="_blank"><small>(Slides)</small></a>
-          {% endif %}
-        {% if publication.video %}
-            <a href="{{publication.video}}" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
-        {% endif %}
-      </div>
-      {% endfor %}
-      </div>
+</div>
 </div>
 
 
-    </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
 

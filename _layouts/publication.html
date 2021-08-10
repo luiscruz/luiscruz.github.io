@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<div class='container'>
+<h1> Publications </h1>
+
+{% include menu.md %}
+
+{%if page.image %}
+<img class="pull-right rounded" width="300px" src="/img/{{page.image}}" />
+{% endif %}
+<h2> {{page.title}} </h2>
+
+<p><strong>Authors:</strong> {{page.author}}</p>
+<p><strong>Published in:</strong> {% if page.journal %}
+        {{page.journal}}{% if page.pages %} (pp. {{page.pages}}){% endif %}.
+      {% endif -%}
+</p>
+
+<p align="justify"><strong>Abstract:</strong> {{page.abstract}}</p>
+
+
+{%if page.bibtex %}
+<strong>Bibtex</strong> (<a class="clipboard" data-clipboard-text="{{page.bibtex}}">copy</a>):
+{% highlight bibtex %}
+{{page.bibtex}}
+{% endhighlight %}
+{% endif %}
+
+<p><strong>Read me:</strong>
+{% if page.arxiv %}
+  <a href="{{page.arxiv}}">Arxiv</a>.
+{% endif %}
+{% if page.preprint %}
+  <a href="{{page.preprint}}">Preprint</a>.
+{% endif %}
+{% if page.doi %}
+  DOI:   <a href="https://doi.org/{{page.doi}}">{{page.doi}}</a>.
+{% endif %}
+</p>
+
+
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+<script>
+  var clipboard = new ClipboardJS('.clipboard');
+</script>
