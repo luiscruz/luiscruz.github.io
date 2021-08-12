@@ -7,7 +7,11 @@ title: Publications
   {%- for publication in site.publications reversed%}
   <p markdown="1">
       {{publication.author}} ({{publication.year}}).
+      {%- unless publication.disable-page %}
       [**{{publication.title}}**]({{publication.url}}).
+      {%- else %}
+      **{{publication.title}}**
+      {%- endunless %}
       {%- if publication.booktitle %}
         In *{{publication.booktitle}}*{% if publication.pages %} (pp. {{publication.pages}}){% endif %}.
       {% endif -%}
@@ -17,7 +21,7 @@ title: Publications
       {%- if publication.publisher %}{{publication.publisher}}.{% endif %}
       {%- if publication.award %}🏆 ***{{publication.award}}***.{% endif %}
       {%- if publication.preprint %} [Preprint]({{publication.preprint}}).{% endif %}
-      {%- if publication.url %} [URL]({{publication.url}}).{% endif %}
+      {%- if publication.full-text %} [Full-text]({{publication.full-text}}).{% endif %}
       {%- if publication.bibtex %} <a class="clipboard" data-clipboard-text="{{publication.bibtex}}">Copy bibtex</a>.{% endif %}
       {%- if publication.slides %}
       [Slides]({{publication.slides}}.)

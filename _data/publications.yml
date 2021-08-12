@@ -1,106 +1,15 @@
-  
 
-- key: cruz2019do
-  author: Luis Cruz and Rui Abreu and John Grundy and Li Li and Xin Xia
-  booktitle: ICSME
-  title: Do Energy-oriented Changes Hinder Maintainability?
-  year: 2019
-  url: "https://luiscruz.github.io/papers/cruz2019do.pdf"
-  slides: "https://speakerdeck.com/luiscruz/do-energy-oriented-changes-hinder-maintainability"
 
-- key: cruz2019improving,
-  author: Luis Cruz and Rui Abreu
-  title: Improving Energy Efficiency Through Automatic Refactoring
-  journal: Journal of Software Engineering and Research Development (JSERD)
-  url: "https://doi.org/10.5753/jserd.2019.17"
-  year: 2019
 
-- key: cruz2019emaas
-  author: Luis Cruz, Rui Abreu
-  booktitle: "41st International Conference on Software Engineering: New Ideas and Emerging Technologies Results Track (ICSE-NIER)"
-  title: "EMaaS: Energy Measurements as a Service for Mobile Applications"
-  year: 2019
-  url: "https://luiscruz.github.io/papers/cruz2019attention.pdf"
-  
-- key: cruz2019attention,
-  author: Luis Cruz, Rui Abreu and David Lo
-  booktitle: Empirical Software Engineering
-  title: "To the Attention of Mobile Software Developers: Guess What, Test your App!"
-  year: 2019
-  url: "https://luiscruz.github.io/papers/cruz2019attention.pdf"
-  slides: "https://www.slideshare.net/LuisCruz429/to-the-attention-of-mobile-software-developers-guess-what-test-your-app"
-  
-- key: cruz2019catalog
-  author: Luis Cruz and Rui Abreu
-  booktitle: Empirical Software Engineering
-  title: Catalog of Energy Patterns for Mobile Applications
-  year: 2019
-  url: "https://luiscruz.github.io/papers/cruz2019catalog.pdf"
-  bibtex: "@article{cruz2019catalog,
-  title={Catalog of energy patterns for mobile applications},
-  author={Cruz, Luis and Abreu, Rui},
-  journal={Empirical Software Engineering},
-  volume={24},
-  number={4},
-  pages={2209--2235},
-  year={2019},
-  publisher={Springer}
-}"
-
-- key: cruz2018using
-  author: Luis Cruz and Rui Abreu
-  booktitle: CIbSE XXI Ibero-American Conference on Software Engineering
-  title: Using Automatic Refactoring to Improve Energy Efficiency of Android Apps
-  year: 2018
-  url: "https://luiscruz.github.io/papers/cruz2018using.pdf"
-  award: Best Paper Award
-
-- key: cruz2017performance
-  author: Luis Cruz and Rui Abreu
-  booktitle: IEEE/ACM International Conference on Mobile Software Engineering and Systems, MobileSoft 2017
-  title: Performance-based Guidelines for Energy Efficient Mobile Applications
-  year: 2017
-  url: "https://luiscruz.github.io/papers/cruz2017performance.pdf"
-  slides: "https://luiscruz.github.io/papers/cruz2017performance-slides.pdf"
-
-- key: cruz2017leafactor
-  author: "Luis Cruz, Rui Abreu and Jean-Noel Rouvignac"
-  booktitle: "IEEE/ACM International Conference on Mobile Software Engineering and Systems, MobileSoft 2017"
-  title: "Leafactor: Improving Energy Efficiency of Android Apps via Automatic Refactoring"
-  year: 2017
-  url: "https://luiscruz.github.io/papers/cruz2017leafactor.pdf"
-  slides: "https://luiscruz.github.io/papers/cruz2017leafactor-slides.pdf"
-  video: "https://youtu.be/K2frfh4tR1o"
       
-- key: cruz2015wearable
-  title: A wearable and mobile intervention delivery system for individuals with panic disorder
-  author: Luis Cruz and Jonathan Rubin and Rui Abreu and Shane Ahern and Hoda Eldardiry and Daniel G. Bobrow
-  booktitle: Proceedings of the 14th International Conference on Mobile and Ubiquitous Multimedia
-  pages: 175–182
-  year: 2015
-  organization: ACM
-  url: "http://dl.acm.org/citation.cfm?id=2836058"
+
   
-- key: strecht2015comparative,
-  title: "A Comparative Study of Regression and Classification Algorithms for Modelling Students' Academic Performance"
-  author: Pedro Strecht, Luis Cruz, Carlos Soares, Joao Mendes-Moreira and Rui Abreu
-  journal: Educational Data Mining 2015
-  year: 2015
-  url: "http://www.educationaldatamining.org/EDM2015/uploads/papers/paper_158.pdf"
-    
+
 - key: cruz2011generic
   title: "Generic optimization of humanoid robots' behaviours"
   author: Luís Cruz, Luis Paulo Reis and Luis Rei
   booktitle: 15th Portuguese Conference on Artificial Intelligence, EPIA
   pages: 385–397
   year: 2011
-  
-- key: cruz2012optimization
-  title: "Optimization approach for the development of humanoid robots' behaviors"
-  author: Cruz, Luis and Reis, Luis Paulo and Lau, Nuno and Sousa, Armando
-  journal: Advances in Artificial Intelligence–IBERAMIA 2012
-  pages: 491–500
-  year: 2012
-  publisher: Springer Berlin Heidelberg
-  url: "http://link.springer.com/chapter/10.1007/978-3-642-34654-5_50"
+
   

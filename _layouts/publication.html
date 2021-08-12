@@ -10,7 +10,9 @@ layout: default
 <img class="pull-right rounded" width="300px" src="/img/{{page.image}}" />
 {% endif %}
 <h2> {{page.title}} </h2>
-
+{% if page.award %}
+  <p class="text-muted">🏆 <strong>{{page.award}}</strong></p>
+{% endif %}
 <p><strong>Authors:</strong> {{page.author}}</p>
 <p><strong>Published in:</strong> {% if page.journal %}
         {{page.journal}}{% if page.pages %} (pp. {{page.pages}}){% endif %}.
@@ -28,6 +30,9 @@ layout: default
 {% endif %}
 
 <p><strong>Read me:</strong>
+{% if page.full-text %}
+  <a href="{{page.full-text}}">Full-text</a>.
+{% endif %}
 {% if page.arxiv %}
   <a href="{{page.arxiv}}">Arxiv</a>.
 {% endif %}
@@ -36,6 +41,12 @@ layout: default
 {% endif %}
 {% if page.doi %}
   DOI:   <a href="https://doi.org/{{page.doi}}">{{page.doi}}</a>.
+{% endif %}
+{% if page.slides %}
+  <a href="{{page.slides}}">🪧Slides</a>.
+{% endif %}
+{% if page.video %}
+  <a href="{{page.video}}">🎥Video</a>.
 {% endif %}
 </p>
 
