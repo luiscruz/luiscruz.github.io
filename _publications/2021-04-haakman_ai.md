@@ -11,8 +11,8 @@ abstract: "Tech-leading organizations are embracing the forthcoming artificial i
 bibtex: "@article{haakman2020ai,
 title={AI lifecycle models need to be revised. an exploratory study in fintech},
 author={Haakman, Mark and Cruz, Luís and Huijgens, Hennie and van Deursen, Arie},
-journal={arXiv preprint arXiv:2010.02716},
-year={2020}
+journal={Empirical Software Engineering},
+year={2021}
 }"
 image: "publications/haakman2021ai.jpeg"
 ---
