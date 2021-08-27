@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Luís Cruz
-title: 16 Guidelines for Effective Data Visualizations in Academic Papers. 
+title: 16 Guidelines for Effective Data Visualizations in Academic Papers 
 summary: "This article presents basic guidelines to help create effective visualizations. 
 There are no golden rules, but there are some basic guidelines that I find useful based on my experience as an academic. I wrote this article having academic writing in mind, but it is certainly useful for any type of communication."
 image: "img/blog/og_image.jpg"

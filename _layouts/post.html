@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="post" class='container'>
-  <a href="/">← Home</a> <!-- | <a href="/blog">Blog</a> -->
+  <a href="/">Home</a> > <a href="/blog">← Blog</a><!-- | <a href="/blog">Blog</a> -->
 <h1>{{ page.title }}<br/>
   <small>{{ page.date | date_to_string }} - <a href="/">{{ page.author }}</a></small></h1>
   
@@ -14,4 +14,7 @@ layout: default
 
 {{ content }}
 </div>
+<hr/>
+<p>{{ page.date | date_to_string }} - Luís Cruz |
+<a href="#">Back to the top.</a></p>
 </div>
