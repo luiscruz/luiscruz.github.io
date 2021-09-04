@@ -1,11 +1,11 @@
 ---
 layout: post
 author: Luís Cruz
-title: Scientific guide to analyse Software Energy Consumption Data
+title: How to Measure the Energy Consumption of your Software
 image: "img/blog/2021-07-20/og_image.png"
 mermaid: True
 equation: True
-invisible: True
+invisible: False
 summary: "Measuring the energy consumption of software is far from being a trivial task. This article provides essential details about energy consumption  tools, their configuration in various software systems, and associated pros and cons. Being able to measure and interpret energy data is one of the most important skills to create Green Software. Read on and let me know your thoughts!"
 ---
 
