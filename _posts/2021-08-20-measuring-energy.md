@@ -4,7 +4,7 @@ author: Luís Cruz
 title: Scientific guide to collect and analyse Software Energy Consumption Data 
 image: "img/blog/2021-07-20/og_image.png"
 mermaid: False
-equation: False
+equation: True
 invisible: True
 summary: ""
 ---
@@ -65,24 +65,80 @@ In scientific research, it is very common that experiments have to run over a fe
 
 ## Energy Data Analysis 📊
 
-After having all the data collected, there is still quite some work to do before we can jump into conclusions. The most obvious approach would be that we compute and compare the means of each 30-size sample. That's not too far from reality but there are still a few steps we need to make before we can reliable use mean differences.
+After having all the data collected, there is still quite some work to do before we can jump into conclusions. The most obvious approach would be that we compute and compare the means of each 30-size sample. That's not too far from reality but there are still a few steps we need to make before we can reliable use mean differences. In particular, we need to account the existence of errors and that these errors may not affect the measurements of two different versions in the same way. Hence, we perform an exploratory analysis on the samples to **discard unexpected biases** and then **perform hypothesis testing** to finally compare results.
 
+### Investigating unexpected biases
 
-In particular, we need to investigate whether there were unexpected errors during measurements. 
+We need to investigate whether there were unexpected errors during measurements. 
 Despite the meticulous preparation to set up a reliable measurement setup, there are still unexpected events that can randomly appear and ruin our measurements.
 Hence, now that we have all data, we need to search for measurements that are not representative of a common execution of the software. For example, it is quite common that, somewhere amongst the 30 executions, there is one or two were interrupted by some unexpected error – consequently, the execution is shorter and spends less energy – falsely appearing as more energy efficient. In other cases, it could happen that the system executed an unexpected task that seldom happens and we did not anticipate. We need to get rid of all these samples since they create unwanted bias in our results.
 
 There are a few strategies to detect and mitigate this errors. The first setup is to create a plot of the distribution of the each sample – i.e., the distribution of the energy consumption of each software version. My favourite plot for this purpose is the violin plot.
 
-<Figure Violin Plot....>
+- Figure Violin Plot...
 
 The plot above shows that the distributions have a bell shape. They are most likely to follow a Normal distribution. This is exactly how we want our energy data to look like.
 Now imagine that we had a few data points that were deviating from our distribution. The shape of the distribution would start looking somehow like this:
 
+The problem when your distribution is not Normal is that we cannot confidently say that the errors that affected the energy consumption of the measurements version A were affecting the version B with the same probability.
 
-Now the question we need to make is: why are this measurements deviating from the Normal distribution? There are a myriad of potential explanations, but there are a few that happen 99% of the time:
+Hence, the question we need to make is: why are these measurements deviating from the Normal distribution? There are a myriad of potential explanations, but there are a few that happen 99% of the time:
 
-- Your tests are not fully replicable or are not deterministic. This is especially common in user interface tests. It could happen for example that your user interface takes longer to refresh and the rest of the test will behave differently because the expected interface elements were not available at the right time. This is also frequent with network requests. 
+1. **Your tests are not fully replicable** or are not deterministic. This is particularly common in user interface tests. It could happen for example that your user interface takes longer to refresh and the rest of the test will behave differently because the expected interface elements were not available at the right time. This is also frequent with network requests. 
+
+2. **There was an error in some of the executions**. This means that a few particular measurements deviated from the others because there was some exception being raised. This is similar to the previous one but somehow easier to detect: often, these measurements appear at the bottom of the distribution with the lowest energy consumptions.
+3. **There was an unusual task being ran by the system** or another application at the same time of the execution. It could happen, for example, that the system received a notification and reacted to it. It is important that all notifications are muted and that there no other applications running at the same time. However, there will always be an unexceptional case that we did not consider and, next time you know, your system is opening the Microsoft AutoUpdate. Another example, it could happen that another user logged in to your system or that someone inserted a new hardware at some point, and so on and so forth.
+4. **Your computer entered a different power mode**. Modern systems have all kinds of mechanisms to optimise the battery life and performance of your computer. Worst case scenario, in the middle of the execution your computer decided to enter a sleep mode. If your measurement did not break it probably took more time than it should to finish. Many other exceptional behaviours can happen, and they all need to be discarded if we want to have reliable measurements that can be used for comparison.
+5. **External physical conditions have changed**. Despite all the hassle you had to control the temperature and other external factors, there are still unexpected variables that may disruptively affect the energy consumption. For example, someone opened a window in the middle of your experiments. From that point on all the measurements will have a slight change. If that change is too big the distribution of measurements will no longer be Normal.
+6. **Any paranormal phenomena 👻**. Even if you cannot explain it, if it's not normal, don't trust it.
+
+Drawing the plots is the easiest way to get some intuition on whether the distribution is Normal. Still, that can be disputable and you don't want the reviewers of your paper raising second thoughts about it. Hence, use the well-reputed statistic test for normality – [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro–Wilk_test). In short, all your samples should have a p-value above 0.05.
+
+### What to do if the samples are not Normal?
+
+In case some of your samples do not follow a normal distribution. We have two options:
+
+1. **Repeat the experiments**. Preferably, start by finding out what happened (the time of execution may help) and fix the issue. We don't want to deal the same issues all over again in a second (or third!) round.
+2. **Remove outliers**. If you suspect that there were only a few data points deviating from the rest of the sample, you can perform the z-score method to detect and remove outliers.
+
+To perform outlier removal, you basically remove all data points that deviate from the mean more than 3 standard deviations – i.e, $\left\| \bar{x}-x\right\|   > 3s$, where $\bar{x}$ is the sample mean, $x$ is the value of the measurement and $s$ is standard deviation of the sample.
+
+If you perform outlier detection, I recommend you do it for every sample, for consistency. Otherwise, you might be accused of cherrypicking – i.e., only performing outlier removal in the cases that support the results you are striving to obtain.
+
+One side effect of removing outliers is that you will no longer have 30-size samples. That is still okay for the kind of analysis that we want to do with our energy data. Anything above 25 measurements should be fine. If you end up with less than that – i.e., you have more than 5 outliers — you should check what went wrong and seriously consider rerunning the experiments.
+
+### Statistical Significance
+
+Now that we have finally been able to collect reliable measurements, it is time to compare the energy consumption of our samples.
+The most obvious way is to compare the means of the samples. If energy consumption of `A` is bigger than `B` then `A` on average **was** less energy efficient. That's true. Yet, as researchers, we want to make sure our results generalise: we want to say that `A` **is** less energy efficient. In other words, we want to make sure that if we repeat our measurements, we will most likely repeat the same conclusion that `A` is less energy efficient — despite the potential errors implicit in the measurement of energy.
+
+The common scientific approach to assess whether results are replicable is by performing statistical significance testing. Since our data follows a Normal distribution, I typically use the two-tailed parametric test [Welch's t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test) with a significance level of $\alpha = 0.05$.
+
+We can formulate our hypothesis test as follows:
+
+$H_0$: The means of energy consumption of version `A` and `B` are equal.
+$H_1$: The means of energy consumption of version `A` and `B` are different.
+
+Where $H_0$ is the null hypothesis and $H_1$ is the alternative hypothesis.
+Hence, in order to come down to the conclusion that `A` is more or less efficient than `B` we need to reject the null hypothesis. In other words, the p-value needs to be less than 0.05.
+
+--- 
+#### 👉 Note 1: 
+**Avoid using the popular [Student's t-test] test** for significance testing with energy consumption measurements. It has the underlying assumption that the population variances are equal. This is not necessarily assured in our experimental setup. The good news is that the Welch's t-test does not rely in such assumptions and it has almost the same statistical power.
+---
+
+### Effect size
+
+So now that we scientifically proved that the energy consumption is indeed different we can now compare the means of the energy consumption. It is always nice to report the mean difference that can be computed as follows:
+
+$\Delta \bar{x} = \bar{x}_A \bar{x}_B$
+
+I suggest you look into other effect-size measures, for example Cohen's-*d*, which provides a better idea of whether the mean difference is small, medium, or large, by considering the standard deviation as well.
+
+Most importantly, you should also discuss the practical effect size. More important than demonstrating that you have a new version that is more energy efficient, you need to demonstrate that the benefits will actually be reflected in the overall energy efficiency of a normal usage of the software. For example, if you prove that your new version will save 1 joule of energy throughout a whole day of intensive usage of your cloud software, it will probably be best if you keep the previous version. 
+
+Unfortunately, there is not a specific fancy metric for the practical effect size. But of course, your paper should never miss this kind of critical analysis in your research paper.
+
 
 
 ## Wrap-up
