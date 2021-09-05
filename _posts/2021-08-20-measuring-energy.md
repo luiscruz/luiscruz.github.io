@@ -27,6 +27,8 @@ If you are a **software developer** enthusiastic about energy efficiency but you
 
 ## Unbiased Energy Data ⚖️
 
+### Zen mode 🧘🏾‍♀️
+
 ### Warm up 📶
 
 Energy consumption is highly affected by the temperature of your hardware. The higher the temperature, the higher the resistance of electrical conductors, leading to higher dissipation and consequently more energy consumption. If we start measurements right after the workstation comes back from sleep, it will probably be relatively cool. As soon as we start executing our energy tests, the temperature of the computer will rise until it reaches a plateau. This means that the first measurements will have less energy consumption for the sole reason of having been the first ones.
@@ -62,6 +64,26 @@ In scientific research, it is very common that experiments have to run over a fe
 
 
 ## Energy Data Analysis 📊
+
+After having all the data collected, there is still quite some work to do before we can jump into conclusions. The most obvious approach would be that we compute and compare the means of each 30-size sample. That's not too far from reality but there are still a few steps we need to make before we can reliable use mean differences.
+
+
+In particular, we need to investigate whether there were unexpected errors during measurements. 
+Despite the meticulous preparation to set up a reliable measurement setup, there are still unexpected events that can randomly appear and ruin our measurements.
+Hence, now that we have all data, we need to search for measurements that are not representative of a common execution of the software. For example, it is quite common that, somewhere amongst the 30 executions, there is one or two were interrupted by some unexpected error – consequently, the execution is shorter and spends less energy – falsely appearing as more energy efficient. In other cases, it could happen that the system executed an unexpected task that seldom happens and we did not anticipate. We need to get rid of all these samples since they create unwanted bias in our results.
+
+There are a few strategies to detect and mitigate this errors. The first setup is to create a plot of the distribution of the each sample – i.e., the distribution of the energy consumption of each software version. My favourite plot for this purpose is the violin plot.
+
+<Figure Violin Plot....>
+
+The plot above shows that the distributions have a bell shape. They are most likely to follow a Normal distribution. This is exactly how we want our energy data to look like.
+Now imagine that we had a few data points that were deviating from our distribution. The shape of the distribution would start looking somehow like this:
+
+
+Now the question we need to make is: why are this measurements deviating from the Normal distribution? There are a myriad of potential explanations, but there are a few that happen 99% of the time:
+
+- Your tests are not fully replicable or are not deterministic. This is especially common in user interface tests. It could happen for example that your user interface takes longer to refresh and the rest of the test will behave differently because the expected interface elements were not available at the right time. This is also frequent with network requests. 
+
 
 ## Wrap-up
 
