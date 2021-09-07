@@ -219,9 +219,7 @@ flowchart TB
 Keep in mind though that there are often many right ways of doing the same thing – even in science.
 Unfortunately, my previous research did not always rely on all these strategies. After several years doing research in this area and studying other's people work, I came up with this method. I totally recommend anyone starting their research in this field to follow it.
 
-However, you can obviously disagree with it – that would be a nice discussion! The whole field is still relatively new, and there is still a lot to improve along the way. Have no qualms about sharing your opinion and suggesting any changes/improvements. Also if you have any question about this topic feel free to drop me an [email](mailto:{{site.email}}) or [connect on Twitter](https://twitter.com/{{site.twitter_username}}).
-
-I hope you enjoyed the article. If you have any suggestions of other tools or if you have any questions about energy profilers just ping me over [Twitter](https://twitter.com/{{site.twitter_username}}) or by [email](mailto:{{site.email}}).
+However, you can obviously disagree with it – that would be a nice discussion! The whole field is still relatively new, and there is still a lot to improve along the way. Have no qualms about sharing your opinion and suggesting any changes/improvements. Also **if you have any question about this topic feel free to drop me an [email](mailto:{{site.email}}) or [connect on Twitter](https://twitter.com/{{site.twitter_username}})**.
 
 ### Useful resources 📚
 
