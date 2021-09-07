@@ -3,7 +3,7 @@ layout: post
 author: Luís Cruz
 title: Scientific guide to collect and analyse Software Energy Consumption Data 
 image: "img/blog/2021-07-20/og_image.png"
-mermaid: False
+mermaid: True
 equation: True
 invisible: True
 summary: ""
@@ -15,19 +15,36 @@ Even when replicated in the exact same computer, energy measurements may be affe
 
 This type of uncertainty in measuring energy consumption creates major difficulties when assessing the energy consumption of a particular version of a software project. For example, energy tests that rely on a single measure will have a **high tendency of being flaky** – i.e., multiple execution of the same test will fail to produce the same result.
 
-This problem takes another level if we are counting on these measurements to make **valid scientific contributions**. Some research projects in the past have underestimated this issue and failed to produce replicable findings. Hence, this article presents a roadmap on how to properly set up a scientific methodology to run energy efficiency experiments. It is divided in two main parts: 1) how to set up energy measurements with minimum bias, and 2) how to analyse and take scientific conclusions from your energy measurements.
+This problem takes another level if we are counting on these measurements to make **valid scientific contributions**. Some research projects in the past have underestimated this issue and failed to produce replicable findings. Hence, this article presents a roadmap on how to properly set up a scientific methodology to run energy efficiency experiments. It mostly stems from my previous work on [doing research and publishing]() on Green Software.
 
+
+This article is divided in two main parts: 1) how to set up energy measurements with minimum bias, and 2) how to analyse and take scientific conclusions from your energy measurements.
 Read on so that we can get your paper accepted in the best scientific conference.
 
 --- 
-#### 👉 Note:
+#### 👉 Note 1:
 If you are a **software developer** enthusiastic about energy efficiency but you are not particularly interested in scientific experiments, this article is still useful for you. It is not necessary to do "everything by the book" but you may use one or two of these techniques to reduce the likelihood of making wrong decisions regarding the energy efficiency of your software.
 
 --- 
 
 ## Unbiased Energy Data ⚖️
 
+There are a few things that need to be considered to minimise the bias of the energy measurements. Below, I pinpoint the most important strategies to minimise the impact of these biases when collecting the data.
+
 ### Zen mode 🧘🏾‍♀️
+
+The first thing we need to make sure is that the only thing running in our system is the software we want to measure. Unfortunately, this is impossible in practice – our system will always have other tasks and things that it will run at the same time. Still, we must at least minimise all these competing tasks:
+
+- all applications should be closed, notifications should be turned off;
+- only the required hardware should be connected (avoid, USB drives, external disks, external displays, etc.);
+- turn off notifications;
+- remove any unnecessary services running in background (e.g., web server, file sharing, etc.);
+- if you do not need an internet or intranet connection, switch off your network;
+- prefer cable over wireless – the energy consumption of the cable is more likely to be stable than a wireless connection.
+
+### Freeze your settings 🥶
+
+It is not be possible to shut off the unnecessary things that run in our system. Still, we need to at least make sure that they will behave the same across all sets of experiments. Thus, it is important that we fix and report some configuration settings. One good example is the brightness and resolution of your screen – report the exact value that and make sure it stays the same throughout the experiment. Another common mistake is to keep the automatic brightness adjustment on – this is, for example, an awful source of errors when measuring energy efficiency in mobile apps.
 
 ### Warm up 📶
 
@@ -62,6 +79,9 @@ In scientific research, it is very common that experiments have to run over a fe
 
 **Always make sure there is a stable room temperature**. This is straightforward if the room where you are running the experiments is properly climatized. In the unfortunate case this is not possible, there is still an acceptable solution: collect the temperature at the same time you collect energy consumption data. Most computers already provide this information, so you can automatically log this data along with the rest of the energy results. Later on, discard measurements that were not executed under the same temperature. This is not ideal, as probably you will have to rerun your experiments multiple times before you get enough valid measurements. Still, it works and the results of your research paper are equally valid.
 
+### Automate Executions 🤖
+
+Since we are repeating experiments 30 times, we need to make sure those 30 experiments are replicable in the exact same way. Moreover, it would be unfeasible to replicate all these experiments manually. Most software testing platforms would fit this purpose. Depending on the programming environment, select one that fits your use cases. A few examples include [JUnit](https://junit.org), [Espresso](https://developer.android.com/training/testing/espresso), [pytest](https://docs.pytest.org/), etc.
 
 ## Energy Data Analysis 📊
 
@@ -94,20 +114,20 @@ Hence, the question we need to make is: why are these measurements deviating fro
 
 Drawing the plots is the easiest way to get some intuition on whether the distribution is Normal. Still, that can be disputable and you don't want the reviewers of your paper raising second thoughts about it. Hence, use the well-reputed statistic test for normality – [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro–Wilk_test). In short, all your samples should have a p-value above 0.05.
 
-### What to do if the samples are not Normal?
+### What to do if the samples are not Normal? 
 
 In case some of your samples do not follow a normal distribution. We have two options:
 
 1. **Repeat the experiments**. Preferably, start by finding out what happened (the time of execution may help) and fix the issue. We don't want to deal the same issues all over again in a second (or third!) round.
 2. **Remove outliers**. If you suspect that there were only a few data points deviating from the rest of the sample, you can perform the z-score method to detect and remove outliers.
 
-To perform outlier removal, you basically remove all data points that deviate from the mean more than 3 standard deviations – i.e, $\left\| \bar{x}-x\right\|   > 3s$, where $\bar{x}$ is the sample mean, $x$ is the value of the measurement and $s$ is standard deviation of the sample.
+To perform outlier removal, you basically remove all data points that deviate from the mean more than 3 standard deviations – i.e., $\left\| \bar{x}-x\right\| > 3s$, where $\bar{x}$ is the sample mean, $x$ is the value of the measurement and $s$ is standard deviation of the sample.
 
 If you perform outlier detection, I recommend you do it for every sample, for consistency. Otherwise, you might be accused of cherrypicking – i.e., only performing outlier removal in the cases that support the results you are striving to obtain.
 
 One side effect of removing outliers is that you will no longer have 30-size samples. That is still okay for the kind of analysis that we want to do with our energy data. Anything above 25 measurements should be fine. If you end up with less than that – i.e., you have more than 5 outliers — you should check what went wrong and seriously consider rerunning the experiments.
 
-### Statistical Significance
+### Statistical Significance 
 
 Now that we have finally been able to collect reliable measurements, it is time to compare the energy consumption of our samples.
 The most obvious way is to compare the means of the samples. If energy consumption of `A` is bigger than `B` then `A` on average **was** less energy efficient. That's true. Yet, as researchers, we want to make sure our results generalise: we want to say that `A` **is** less energy efficient. In other words, we want to make sure that if we repeat our measurements, we will most likely repeat the same conclusion that `A` is less energy efficient — despite the potential errors implicit in the measurement of energy.
@@ -117,31 +137,89 @@ The common scientific approach to assess whether results are replicable is by pe
 We can formulate our hypothesis test as follows:
 
 $H_0$: The means of energy consumption of version `A` and `B` are equal.
+
 $H_1$: The means of energy consumption of version `A` and `B` are different.
 
 Where $H_0$ is the null hypothesis and $H_1$ is the alternative hypothesis.
 Hence, in order to come down to the conclusion that `A` is more or less efficient than `B` we need to reject the null hypothesis. In other words, the p-value needs to be less than 0.05.
 
 --- 
-#### 👉 Note 1: 
-**Avoid using the popular [Student's t-test] test** for significance testing with energy consumption measurements. It has the underlying assumption that the population variances are equal. This is not necessarily assured in our experimental setup. The good news is that the Welch's t-test does not rely in such assumptions and it has almost the same statistical power.
+#### 👉 Note 2: 
+**Avoid using the popular [Student's t-test](https://en.wikipedia.org/wiki/Student%27s_t-test) test** for significance testing with energy consumption measurements. It has the underlying assumption that the population variances are equal. This is not necessarily assured in our experimental setup. The good news is that the Welch's t-test does not rely in such assumptions and it has almost the same statistical power.
+
+--- 
+#### 👉 Note 3: 
+**You may find some research studies that use non-parametrical tests.** Non-parametrical tests, such as the well known [Mann–Whitney *U* test](https://en.wikipedia.org/wiki/Mann–Whitney_U_test), can be used without making any assumption about the shape of the distribution. Hence, this is commonly used when the collected energy measurements do not yield a Normal distribution. One of the issues of using a non-parametric test is that it might have **higher type II error rate** -- i.e., mistakenly accepting the null hypothesis. This means that the test is more likely to not being able to find statistical significance between two versions of the software. But, there is another issue that is more important than that: **why is the data not Normal in the first place?** Probably, **there are a few low quality energy measurements that should be fixed** in the first place.
+
 ---
 
 ### Effect size
 
 So now that we scientifically proved that the energy consumption is indeed different we can now compare the means of the energy consumption. It is always nice to report the mean difference that can be computed as follows:
 
-$\Delta \bar{x} = \bar{x}_A \bar{x}_B$
+$$\Delta \bar{x} = \bar{x}_A - \bar{x}_B$$
 
 I suggest you look into other effect-size measures, for example Cohen's-*d*, which provides a better idea of whether the mean difference is small, medium, or large, by considering the standard deviation as well.
 
-Most importantly, you should also discuss the practical effect size. More important than demonstrating that you have a new version that is more energy efficient, you need to demonstrate that the benefits will actually be reflected in the overall energy efficiency of a normal usage of the software. For example, if you prove that your new version will save 1 joule of energy throughout a whole day of intensive usage of your cloud software, it will probably be best if you keep the previous version. 
+Nevertheless, using statistical metrics to measure effect size is not enough – there should be a discussion of the **practical effect size**. More important than demonstrating that we came up with a new version that is more energy efficient, you need to demonstrate that the benefits will actually be reflected in the overall energy efficiency of a normal usage of the software. For example, imagine that the results show that a given energy improvement was only able to save 1 joule of energy throughout a whole day of intensive usage of your cloud software. This perspective can hardly be captured by classic effect-size measures. The statistical approach to effect size (e.g., mean difference, Cohen's-*d*, and so on) is agnostic of the context of the problem at hands.
 
-Unfortunately, there is not a specific fancy metric for the practical effect size. But of course, your paper should never miss this kind of critical analysis in your research paper.
+Unfortunately, there is not a specific fancy metric for the practical effect size. But of course, your paper should never miss this kind of critical analysis in your research paper. It usually fits nicely the discussion section of your research paper.
 
 
+## Wrap-up 
 
-## Wrap-up
+That's all, folks! In this article, we have seen how to create an experimental methodology to reliably collect energy data and to derive scientific conclusions from it. We can sum up all the strategies with the following graph:
+
+<div class="mermaid">
+flowchart TB
+    A["Improve\nEnergy Consumption\n(versions A and B)"]
+    A --> C
+    subgraph C[Energy Data Collection]
+    direction TB
+      C1[Zen mode]
+      C2[Freeze and report settings]
+      C3[Warm up your setup]
+      C4[Repeat 30 times]
+      C5[Sleep between measurements]
+      C6[Shuffle measurements]
+      C7[Control Room Temperature]
+      C8[Create Automated Tests]
+      C1 --- C2 --- C3 --- C4 --- C8
+      C1 --- C5 --- C6 --- C7 --- C8
+    end
+
+
+    C --> D1
+    subgraph D["Energy Data Analysis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|"]
+        D1[Analyze\ndistribution shapes]
+        D2[Is data Normal?]
+        D3[Investigate problems\n in experimetns]
+        D4[Remove\n outliers]
+        D5[Repeat\n experiments]
+        D6[Significance tests]
+        D7[Effect size]
+        D1 --> D2
+        D2 -- No! --> D3
+        D3 --> D4
+        D4 --> D5
+        D5 --> D1
+        D2 -- Yes! --> D6
+        D6 --> D7
+    end
+    D7 ==> E
+    E[Write your Paper!]
+
+    style E fill:lightblue
+    style D fill: transparent,text-align:left
+    style C fill: transparent
+    style A fill:lightblue
+</div>
+
+
+Keep in mind though that there are often many right ways of doing the same thing – even in science.
+Unfortunately, my previous research did not always rely on all these strategies. After several years doing research in this area and studying other's people work, I came up with this method. I totally recommend anyone starting their research in this field to follow it.
+
+However, you can obviously disagree with it – that would be a nice discussion! The whole field is still relatively new, and there is still a lot to improve along the way. Have no qualms about sharing your opinion and suggesting any changes/improvements. Also if you have any question about this topic feel free to drop me an [email](mailto:{{site.email}}) or [connect on Twitter](https://twitter.com/{{site.twitter_username}}).
 
 I hope you enjoyed the article. If you have any suggestions of other tools or if you have any questions about energy profilers just ping me over [Twitter](https://twitter.com/{{site.twitter_username}}) or by [email](mailto:{{site.email}}).
 
@@ -149,4 +227,8 @@ I hope you enjoyed the article. If you have any suggestions of other tools or if
 
 If want to learn more about this topic, here are some follow-up pointers you should not miss:
 
-[^flaky-test]: A flaky test is a test that fails to produce the same result in multiple executions of the test.
+- [How to Measure the Energy Consumption of your Software.](/2021/07/20/measuring-energy). It provides a list of different tools estimate the energy consumption of your workstation.
+- [On the Energy Footprint of Mobile Testing Frameworks](/publications/2019-12-cruz-uiframeworks). An example of a research paper in which, together with my Ph.D. supervisor, we have used most of the mentioned guidelines to compare the energy consumption of different UI testing frameworks.
+- [Data Analyst Nanodegreen Program](https://www.udacity.com/course/data-analyst-nanodegree--nd002). This nanodegree gave me the basics to start learning more about hypothesis testing and applying it in my empirical research. I do not have any partnership with Udacity – this is the resource that worked for me but I am sure there are free alternatives that are equally useful.
+- [Catalog of Energy Patterns](https://tqrg.github.io/energy-patterns/). If you are looking for examples of energy improvements made in software projects we will find several Android instances in this catalog.
+- [Sustainable Software Engineering course at the TU Delft](https://luiscruz.github.io/course_sustainableSE/). I teach Sustainable SE to Master-level students at the Delft University of Technology. I recommend taking a look to some of the materials (work in progress).
