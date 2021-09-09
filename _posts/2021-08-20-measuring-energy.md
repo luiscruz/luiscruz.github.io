@@ -81,7 +81,9 @@ In scientific research, it is very common that experiments have to run over a fe
 
 ### Automate Executions 🤖
 
-Since we are repeating experiments 30 times, we need to make sure those 30 experiments are replicable in the exact same way. Moreover, it would be unfeasible to replicate all these experiments manually. Most software testing platforms would fit this purpose. Depending on the programming environment, select one that fits your use cases. A few examples include [JUnit](https://junit.org), [Espresso](https://developer.android.com/training/testing/espresso), [pytest](https://docs.pytest.org/), etc.
+Since we are repeating experiments 30 times, we need to make sure those 30 experiments are replicable in the exact same way. Moreover, it would be unfeasible to replicate all these experiments manually.
+For this purpose, we use a **software testing library to reproduce a realistic use case scenario** that we want measure. This could be a sequence of calls to API methods in the software, or even a sequence of interactions with the graphical user interface. There are plenty of software testing platforms that could fit this purpose. Depending on the programming environment, select one that fits your case. A few examples include [JUnit](https://junit.org), [Espresso](https://developer.android.com/training/testing/espresso), [pytest](https://docs.pytest.org/), etc.
+
 
 ## Energy Data Analysis 📊
 
@@ -93,12 +95,20 @@ We need to investigate whether there were unexpected errors during measurements.
 Despite the meticulous preparation to set up a reliable measurement setup, there are still unexpected events that can randomly appear and ruin our measurements.
 Hence, now that we have all data, we need to search for measurements that are not representative of a common execution of the software. For example, it is quite common that, somewhere amongst the 30 executions, there is one or two were interrupted by some unexpected error – consequently, the execution is shorter and spends less energy – falsely appearing as more energy efficient. In other cases, it could happen that the system executed an unexpected task that seldom happens and we did not anticipate. We need to get rid of all these samples since they create unwanted bias in our results.
 
-There are a few strategies to detect and mitigate this errors. The first setup is to create a plot of the distribution of the each sample – i.e., the distribution of the energy consumption of each software version. My favourite plot for this purpose is the violin plot.
+There are a few strategies to detect and mitigate this errors. The first setup is to create a plot of the distribution of the each sample – i.e., the distribution of the energy consumption of each software version. My favourite plot for this purpose is a mix of a violin and a box plot.
 
-- Figure Violin Plot...
+![Violin plots](/img/blog/2021-08-20/normal_data.svg){: class="center-block" width="500px" }
+<p class="text-center text-muted"><small>Plot of the distribution of energy consumption for versions A and B.</small></p>
 
-The plot above shows that the distributions have a bell shape. They are most likely to follow a Normal distribution. This is exactly how we want our energy data to look like.
-Now imagine that we had a few data points that were deviating from our distribution. The shape of the distribution would start looking somehow like this:
+The plot above shows that the distributions have a bell shape. By looking at the plots we can say that most likely the samples follow a Normal distribution. This is exactly how we want our energy data to look like.
+Now imagine that we had a few data points that were deviating from our distribution. The shape of the distributions could start looking somehow like this:
+
+![Violin plots](/img/blog/2021-08-20/paranormal_data.svg){: class="center-block" width="500px" }
+<p class="text-center text-muted"><small>Plot of the distribution for versions A and B when there were a few unreliable measurements.</small></p>
+
+In version A, this new figure shows that the distribution has two clear peaks: one around 100 Joules and another around 80 Joules. It is very likely that there were some unexpected differences in the executions of these measurements. It is important to investigate these differences before making a judgement on the real energy consumption of versions A and B.
+
+In version B, the figure shows that there are two outliers, highlighted in red, that clearly deviate from the rest of the data points. It is also important to investigate why these measurements were so different.
 
 The problem when your distribution is not Normal is that we cannot confidently say that the errors that affected the energy consumption of the measurements version A were affecting the version B with the same probability.
 
@@ -123,9 +133,9 @@ In case some of your samples do not follow a normal distribution. We have two op
 
 To perform outlier removal, you basically remove all data points that deviate from the mean more than 3 standard deviations – i.e., $\left\| \bar{x}-x\right\| > 3s$, where $\bar{x}$ is the sample mean, $x$ is the value of the measurement and $s$ is standard deviation of the sample.
 
-If you perform outlier detection, I recommend you do it for every sample, for consistency. Otherwise, you might be accused of cherrypicking – i.e., only performing outlier removal in the cases that support the results you are striving to obtain.
+If you perform outlier detection, I recommend you do it for every sample of measurements, for consistency. Otherwise, you might be accused of cherrypicking – i.e., only performing outlier removal in the cases that support exciting results.
 
-One side effect of removing outliers is that you will no longer have 30-size samples. That is still okay for the kind of analysis that we want to do with our energy data. Anything above 25 measurements should be fine. If you end up with less than that – i.e., you have more than 5 outliers — you should check what went wrong and seriously consider rerunning the experiments.
+One side effect of removing outliers is that you will no longer have 30-size samples. That is still okay for the kind of analysis that we want to do with our energy data. Anything above 25 measurements should be fine. If you end up with less than that – e.g., you have more than 5 outliers — you should check what went wrong and seriously consider rerunning the experiments.
 
 ### Statistical Significance 
 
@@ -226,6 +236,7 @@ However, you can obviously disagree with it – that would be a nice discussion!
 If want to learn more about this topic, here are some follow-up pointers you should not miss:
 
 - [How to Measure the Energy Consumption of your Software.](/2021/07/20/measuring-energy). It provides a list of different tools estimate the energy consumption of your workstation.
+- [Snippet for violin plots](https://colab.research.google.com/drive/1DmFuBwhs9wI4_6zaaUh5B1rTiVt-hNt9?usp=sharing). Python notebook with the code used to generate the violin plots in this article.
 - [On the Energy Footprint of Mobile Testing Frameworks](/publications/2019-12-cruz-uiframeworks). An example of a research paper in which, together with my Ph.D. supervisor, we have used most of the mentioned guidelines to compare the energy consumption of different UI testing frameworks.
 - [Data Analyst Nanodegreen Program](https://www.udacity.com/course/data-analyst-nanodegree--nd002). This nanodegree gave me the basics to start learning more about hypothesis testing and applying it in my empirical research. I do not have any partnership with Udacity – this is the resource that worked for me but I am sure there are free alternatives that are equally useful.
 - [Catalog of Energy Patterns](https://tqrg.github.io/energy-patterns/). If you are looking for examples of energy improvements made in software projects we will find several Android instances in this catalog.
