@@ -110,19 +110,18 @@ In version A, this new figure shows that the distribution has two clear peaks: o
 
 In version B, the figure shows that there are two outliers, highlighted in red, that clearly deviate from the rest of the data points. It is also important to investigate why these measurements were so different.
 
-The problem when your distribution is not Normal is that we cannot confidently say that the errors that affected the energy consumption of the measurements version A were affecting the version B with the same probability.
+The problem when your distribution is not Normal is that we cannot confidently say that the errors that affected the energy consumption of the measurements version A were equally affecting the version B.
 
 Hence, the question we need to make is: why are these measurements deviating from the Normal distribution? There are a myriad of potential explanations, but there are a few that happen 99% of the time:
 
 1. **Your tests are not fully replicable** or are not deterministic. This is particularly common in user interface tests. It could happen for example that your user interface takes longer to refresh and the rest of the test will behave differently because the expected interface elements were not available at the right time. This is also frequent with network requests. 
-
 2. **There was an error in some of the executions**. This means that a few particular measurements deviated from the others because there was some exception being raised. This is similar to the previous one but somehow easier to detect: often, these measurements appear at the bottom of the distribution with the lowest energy consumptions.
 3. **There was an unusual task being ran by the system** or another application at the same time of the execution. It could happen, for example, that the system received a notification and reacted to it. It is important that all notifications are muted and that there no other applications running at the same time. However, there will always be an unexceptional case that we did not consider and, next time you know, your system is opening the Microsoft AutoUpdate. Another example, it could happen that another user logged in to your system or that someone inserted a new hardware at some point, and so on and so forth.
 4. **Your computer entered a different power mode**. Modern systems have all kinds of mechanisms to optimise the battery life and performance of your computer. Worst case scenario, in the middle of the execution your computer decided to enter a sleep mode. If your measurement did not break it probably took more time than it should to finish. Many other exceptional behaviours can happen, and they all need to be discarded if we want to have reliable measurements that can be used for comparison.
 5. **External physical conditions have changed**. Despite all the hassle you had to control the temperature and other external factors, there are still unexpected variables that may disruptively affect the energy consumption. For example, someone opened a window in the middle of your experiments. From that point on all the measurements will have a slight change. If that change is too big the distribution of measurements will no longer be Normal.
 6. **Any paranormal phenomena 👻**. Even if you cannot explain it, if it's not normal, don't trust it.
 
-Drawing the plots is the easiest way to get some intuition on whether the distribution is Normal. Still, that can be disputable and you don't want the reviewers of your paper raising second thoughts about it. Hence, use the well-reputed statistic test for normality – [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro–Wilk_test). In short, all your samples should have a p-value above 0.05.
+Drawing the plots is the easiest way to get some intuition on whether the distribution is Normal. Still, that can be disputable and you don't want the reviewers of your paper raising second thoughts about it. Hence, use the well-reputed statistic test for normality – [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro–Wilk_test). In short, all your samples should have a $p$-value above $0.05$.
 
 ### What to do if the samples are not Normal? 
 
@@ -151,7 +150,7 @@ $H_0$: The means of energy consumption of version `A` and `B` are equal.
 $H_1$: The means of energy consumption of version `A` and `B` are different.
 
 Where $H_0$ is the null hypothesis and $H_1$ is the alternative hypothesis.
-Hence, in order to come down to the conclusion that `A` is more or less efficient than `B` we need to reject the null hypothesis. In other words, the p-value needs to be less than 0.05.
+Hence, in order to come down to the conclusion that `A` is more or less efficient than `B` we need to reject the null hypothesis. In other words, the $p$-value needs to be less than $0.05$.
 
 --- 
 #### 👉 Note 2: 
