@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Luís Cruz
-title: How to Measure the Energy Consumption of your Software
+title: Tools to Measure Software Energy Consumption from your Computer
 image: "img/blog/2021-07-20/og_image.png"
 mermaid: True
 equation: True

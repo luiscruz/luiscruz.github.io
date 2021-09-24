@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Luís Cruz</title>
+  {% if page.title %}
+    <title>Luís Cruz – {{page.title}}</title>
+  {% else %}
+    <title>{{ site.title }}</title>
+  {% endif %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- metdata -->
