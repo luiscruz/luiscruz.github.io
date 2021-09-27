@@ -250,8 +250,8 @@ There are many other energy profilers out there. In this article, we are only co
 [Intel RAPL](https://01.org/blogs/2014/running-average-power-limit-–-rapl)
 : RAPL is internally used by almost every energy profiler for Intel devices out there, including the ones mentioned in this post: PowerLog, Power Gadget, Powerstat, and PowerTop.
 
-[Energyusage](https://pypi.org/project/energyusage/)
-: A really nice Python library that collects energy data for Python functions. It also computes carbon emissions based on your location/country. Unfortunately, it only works on Linux systems running on Intel devices (uses RAPL under the hood).
+[CodeCarbon](https://github.com/mlco2/codecarbon/)
+: A really nice Python library that collects energy data in Python code. Unfortunately, it only works on Intel devices, as it uses RAPL under the hood.
 
 [Android Runner](https://github.com/S2-group/android-runner)
 : Supports multiple energy profilers and power monitors for Android devices.
