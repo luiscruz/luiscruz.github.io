@@ -356,10 +356,10 @@ Use the decision diagram below to help you decide on which energy profiler to us
 <div class="mermaid">
 graph TD
 A[Which Energy Profiler should I use?] --> C{OS?}
-C -->|Mac| D{Comfortable with<br/> the command-line?}
+C -->|Mac Intel| D{Comfortable with<br/> the command-line?}
 D -->|Yes| DY[Intel PowerLog]
 D -->|No| DN[Power Gadget]
-C -->|Linux| CA{Software using Nvidia GPU?}
+C -->|Linux| CA{Software using<br/> Nvidia GPU?}
 CA -->|No| E{Processor?}
 E -->|Intel| F[Powerstat, PowerTOP, or Perf]
 E -->|AMD| PowerTOP
