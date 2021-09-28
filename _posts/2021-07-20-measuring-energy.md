@@ -411,9 +411,10 @@ If want to learn more about this topic, here are some follow-up pointers you sho
 - [Energy Patterns for Android Applications](https://tqrg.github.io/energy-patterns/). A catalog of 22 energy patterns. Although these patterns were tuned for Android apps, they might inspire you on energy-efficient solutions for your server/desktop software projects.
 - [ClimateAction.tech](https://climateaction.tech). A great slack-based tech community to meet, discuss, and learn about climate action. Its main focus lies on Business Culture & Behavior Change, Green Software Engineering, Sustainable Product Design, and Low-Carbon Infrastructure. I totally recommend it!
 
-<!-- #### Acknowledgements
+#### Acknowledgements
 
-Thanks Clara Gomes and Pooja Rani for the feedback on early revisions of the article. -->
+Kudos to Clara Gomes and Pooja Rani for the feedback on early revisions of the article. Thanks, [Stefanos Georgiou] for adding Perf and Nvidia-smi.
 
 [Intel Power Gadget]: https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html
 [AMD]: https://en.wikipedia.org/wiki/Advanced_Micro_Devices
+[Stefanos Georgiou]: https://twitter.com/stefanosGeorgi1/
