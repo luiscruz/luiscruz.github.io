@@ -2,7 +2,7 @@
 layout: post
 author: Luís Cruz
 title: Scientific guide to collect and analyse Software Energy Consumption Data 
-image: "img/blog/2021-07-20/og_image.png"
+image: "img/blog/2021-08-20/og_image.png"
 mermaid: True
 equation: True
 invisible: False
