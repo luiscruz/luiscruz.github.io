@@ -13,7 +13,7 @@ Developing green software is the new tech skill that is becoming more and more i
 
 
 There are various ways to ensure green software – tracking its energy consumption is one of the ways but practitioners often find it hard to start in this direction.
-In this article, we are going to cover 4 different ways of measuring the energy consumption of your code. There is not a single approach since different platforms require different strategies. For example, some tools only work with Intel CPUs, other only work with a particular OS, and so on.
+In this article, we are going to cover 6 different ways of measuring the energy consumption of your code. There is not a single approach since different platforms require different strategies. For example, some tools only work with Intel CPUs, other only work with a particular OS, and so on.
 Every time I want to measure energy consumption, I have to study a ton of different tools before I find the right power tool that works with my software system. This article will help you skip that part of the deal and start measuring energy right away!
 
 ## Power Monitors vs Energy Profilers
@@ -192,6 +192,129 @@ $$E = P.\Delta t = 5.43\text{W} \times 20\text{s} = 108.6\text{J}$$
 PowerTOP is a powerful tool and its potential goes beyond a simple measurement of energy consumption. This is especially true when it is run on battery-powered devices. Nevertheless, this is the simplest use case to get you started. If you want to delve into it, check out the user manual available on [PowerTOP's webpage](https://01.org/powertop).
 
 
+### 5. Perf
+<small>📝 [Official webpage](https://www.man7.org/linux/man-pages/man1/perf.1.html). Works on Linux with Intel devices; does not work on virtual machines.
+</small>
+
+A very quick and easy way to obtain the energy consumption of a program in a Linux environment, is through Perf. Perf is a command-line tool that offers a wrapper to Intel's [RAPL](https://01.org/blogs/2014/running-average-power-limit-%E2%80%93-rapl). It facilitates the collection of energy measurements from various components of a computer system such as: cores, gpu (Intel's GPUs), pkg (core and uncore components), psys (value is the entire system on chip), and ram.
+
+First, install it using a suitable package manager. E.g., `apt-get`:
+
+```bash
+sudo apt install linux-tools-`uname -r`
+```
+
+You can fetch the energy consumption of an application/command with the following:
+
+```bash
+sudo perf stat -e power/energy-cores/,power/energy-ram/,power/energy-gpu/,power/energy-pkg/,power/energy-psys/ sleep 5
+```
+
+Then, Perf will provide the following output:
+
+```bash
+ Performance counter stats for 'system wide':
+
+              3.59 Joules power/energy-cores/                                         
+              8.18 Joules power/energy-ram/                                           
+              1.63 Joules power/energy-gpu/                                           
+             12.74 Joules power/energy-pkg/                                           
+             51.10 Joules power/energy-psys/                                          
+
+       5.001965465 seconds time elapsed
+```
+
+In the above example we have measured the energy consumption of a Linux built-in command, sleep  for 5 seconds.
+However, any executable of any programming language can be measured.
+Moreover, Perf offers the `-r` command-line argument that allows a user to specify how many times to measure an application.
+
+```bash
+sudo perf stat -r 5 -e power/energy-cores/ sleep 5 
+```
+
+The above command will execute the `sleep 5` command 5 times and report the average energy consumption,
+and the difference of the measurements, in percentage.
+
+```bash
+ Performance counter stats for 'system wide' (5 runs):
+
+              4.44 Joules power/energy-cores/        ( +- 1.52% )
+
+          5.002405 +- 0.000272 seconds time elapsed  ( +-  0.01% )
+```
+
+In case you would like to avoid using the `sudo` each time you invoke Perf, then run the following commands in the terminal:
+
+```bash
+sudo sh -c 'echo -1 >/proc/sys/kernel/perf_event_paranoid'
+sudo sysctl -w kernel.perf_event_paranoid=-1
+```
+
+Note that the above settings will not persist after restarting your system.
+
+
+
+### 6. Nvidia-smi
+<small>📝 [Official webpage](https://developer.nvidia.com/nvidia-system-management-interface). Works on Linux with Nvidia GPU devices; but never tested it on Windows.
+</small>
+
+A very easy to useful command-line tool to obtain Nvidia GPUs power-related information along with other information such as memory usage, temperature, and many more.
+The `nvidia-smi` tool is particularly useful in measuring the power consumption of GPU-intensive applications such as training a deep learning model, watching a video, playing a game, and so on. 
+
+First, you have to find the available drivers of your GPU device using the suitable package manager  (`apt-get` for our case):
+
+```bash
+apt search nvidia-driver
+```
+
+Based on the output of the above search command, select the latest tested proprietary version as it is the best fit.
+Then execute the following:
+
+```bash
+sudo apt update
+sudo apt upgrade
+apt install nvidia-[driver_number]
+```
+
+After restart your system and try to execute the `nvidia-smi` command in your terminal.
+Once you get a similar output to the one below, then you are ready to measure an application's GPU power consumption.
+
+```bash
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 470.57.02    Driver Version: 470.57.02    CUDA Version: 11.4     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Quadro P400         On   | 00000000:01:00.0 Off |                  N/A |
+| 34%   27C    P8    N/A /  N/A |      1MiB /  2000MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+```
+
+You may start an application, let us say, to train a deep learning model
+and query information on the power usage of your GPU.
+
+```bash
+python trainDeepLearningModel.py &
+nvidia-smi --loop-ms=1000 --format=csv --query-gpu=power.draw
+```
+
+The above commands will start a model train in the background and, then, will print the power usage
+of the GPU in the foreground on each second (`--loop-ms=1000`).
+The `--format=csv` can be used to collect data in a CSV format.
+There are many available options to `nvidia-smi` and a rich documentation can be found [online](https://developer.download.nvidia.com/compute/DCGM/docs/nvidia-smi-367.38.pdf).
+
+
 
 ## I know how to "get the Joules" – now what?
 
@@ -226,7 +349,7 @@ For example, if we are analysing the energy consumption of a video player, it is
 
 ## Deciding on a suitable energy profiler
 
-So far, we have covered four energy profilers. Each one of them has advantages and disadvantages. Most of all, they have particular requirements that make them suitable or not to your particular case. Unfortunately, I have not come across a single solution that works for all devices and operative systems. The problem lies mostly in the fact that Intel and AMD computer architectures require a different approach to collect power data.
+So far, we have covered six energy profilers. Each one of them has advantages and disadvantages. Most of all, they have particular requirements that make them suitable or not to your particular case. Unfortunately, I have not come across a single solution that works for all devices and operative systems. The problem lies mostly in the fact that Intel and AMD computer architectures require a different approach to collect power data.
 
 Use the decision diagram below to help you decide on which energy profiler to use.
 
@@ -236,9 +359,11 @@ A[Which Energy Profiler should I use?] --> C{OS?}
 C -->|Mac| D{Comfortable with<br/> the command-line?}
 D -->|Yes| DY[Intel PowerLog]
 D -->|No| DN[Power Gadget]
-C -->|Linux| E{Processor?}
-E -->|Intel| F[Powerstat or PowerTOP]
+C -->|Linux| CA{Software using Nvidia GPU?}
+CA -->|No| E{Processor?}
+E -->|Intel| F[Powerstat, PowerTOP, or Perf]
 E -->|AMD| PowerTOP
+CA -->|Yes| Nvidia-smi
 C -->|Windows| D
 </div>
 
@@ -272,7 +397,7 @@ Windows Energy Estimation Engine (E3)
 
 ## Wrap-up
 
-In this post, we have covered 4 energy profilers that will help you measure the energy consumption of virtually any desktop/server software. Regardless of whether you are working on an academic project or production-ready software, it is always worthwhile to keep an eye on energy efficiency. There is still a long way to go on developing energy-efficient code, but knowing how to measure energy consumption is the first step.
+In this post, we have covered 6 energy profilers that will help you measure the energy consumption of virtually any desktop/server software. Regardless of whether you are working on an academic project or production-ready software, it is always worthwhile to keep an eye on energy efficiency. There is still a long way to go on developing energy-efficient code, but knowing how to measure energy consumption is the first step.
 
 Keep in mind though that these tools only provide an approximation of the energy consumption. For instance, after a few experiments, you will notice that re-running the same measurement multiple times will give you slightly different results. That is something I might cover in more detail in a future post.
 
