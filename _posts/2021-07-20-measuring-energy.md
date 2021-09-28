@@ -355,15 +355,16 @@ Use the decision diagram below to help you decide on which energy profiler to us
 
 <div class="mermaid">
 graph TD
-A[Which Energy Profiler should I use?] --> C{OS?}
+A[Which Energy Profiler should I use?] --> CA
+CA{Nvidia GPU-intensitve?}
 C -->|Mac Intel| D{Comfortable with<br/> the command-line?}
 D -->|Yes| DY[Intel PowerLog]
 D -->|No| DN[Power Gadget]
-C -->|Linux| CA{Software using<br/> Nvidia GPU?}
-CA -->|No| E{Processor?}
+C -->|Linux| E{Processor?}
+CA -->|No| C{OS?}
 E -->|Intel| F[Powerstat, PowerTOP, or Perf]
 E -->|AMD| PowerTOP
-CA -->|Yes| Nvidia-smi
+CA ---->|Yes<br/> Windows/Linux| Nvidia-smi
 C -->|Windows| D
 </div>
 
