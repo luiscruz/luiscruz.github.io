@@ -391,8 +391,8 @@ There are many other energy profilers out there. In this article, we are only co
 [Website Carbon Calculator](https://www.websitecarbon.com)
 : Measure how green is your website when compared to other websites out there. It provides a rough estimation of the carbon footprint of a webpage based on the data transferred while loading it.
 
-[Syspower](https://github.com/s4y/syspower/issues/1)
-: Tool to collect energy data from your Mac. It reads directly from the [System Management Controller](https://en.wikipedia.org/wiki/System_Management_Controller) in Intel-based Macs.
+[Syspower](https://github.com/s4y/syspower/)
+: Lightweight tool to collect energy data from your Mac. It reads directly from the [System Management Controller](https://en.wikipedia.org/wiki/System_Management_Controller) in Intel-based Macs.
 
 Windows Energy Estimation Engine (E3)
 : Built-in tool available on Microsoft Windows. Check out the [tutorial by Scott Chamberlin](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/).
