@@ -5,7 +5,7 @@ title: Publications
 
 <div id="bibtex_display">
   {%- for publication in site.publications reversed%}
-  <p markdown="1">
+  <p markdown="span">
       {{publication.author}} ({{publication.year}}).
       {%- unless publication.disable-page %}
       [**{{publication.title}}**]({{publication.url}}).
@@ -22,7 +22,7 @@ title: Publications
       {%- if publication.award %}🏆 ***{{publication.award}}***.{% endif %}
       {%- if publication.preprint %} [Preprint]({{publication.preprint}}).{% endif %}
       {%- if publication.full-text %} [Full-text]({{publication.full-text}}).{% endif %}
-      {%- if publication.bibtex %} <a class="clipboard" data-clipboard-text="{{publication.bibtex}}">Copy bibtex</a>.{% endif %}
+      <!-- {%- if publication.bibtex %} <a class="clipboard" data-clipboard-text="{{publication.bibtex}}">Copy bibtex</a>.{% endif %} -->
       {%- if publication.slides %}
       [Slides]({{publication.slides}}.)
     {% endif -%}
