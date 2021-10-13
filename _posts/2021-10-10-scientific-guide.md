@@ -3,6 +3,7 @@ layout: post
 author: Luís Cruz
 title: Scientific guide to collect and analyse Software Energy Consumption Data 
 image: "img/blog/2021-08-20/og_image.png"
+show_image: True
 mermaid: True
 equation: True
 invisible: False
@@ -11,7 +12,7 @@ summary: "Are you studying the energy consumption of software technologies? Rega
 A simple mistake in the methodology might completely void your results and increase the chances of drawing wrong conclusions. We will see how to mitigate any potential bias or errors in the energy measurement setup – this is quintessential if you are planning to publish your results. If you have a general interest in the energy efficiency of software but are not exactly doing research, you may also find this post interesting. Come along and let me know your thoughts."
 ---
 
-In my [previous post](/2021/07/20/measuring-energy.html), we have covered tools to measure the energy consumption of a computer during a particular period of time. Although these tools provide a reliable indication of the energy consumption, using it as part of a scientific study is far from trivial.
+<span class="first-letter">I</span>n my [previous post](/2021/07/20/measuring-energy.html), we have covered tools to measure the energy consumption of a computer during a particular period of time. Although these tools provide a reliable indication of the energy consumption, using it as part of a scientific study is far from trivial.
 
 Even when replicated in the exact same computer, energy measurements are affected by many different factors: hardware temperature (CPU, GPU, memory, etc.), room temperature, background tasks running in the system, thread scheduling, and so on.
 

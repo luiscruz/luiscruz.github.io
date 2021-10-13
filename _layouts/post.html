@@ -10,6 +10,7 @@ layout: default
 <p class="lead">  
 <em>{{page.summary}}</em>
 </p>
+{% if page.show_image %}<img class="center-block" style="max-height:4em" src="{{page.image | absolute_url}}"/>{%endif%}
 <br/>
 {{ content }}
 </div>

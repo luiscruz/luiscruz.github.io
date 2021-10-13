@@ -23,3 +23,13 @@
 #post img{
     max-width:100%
 }
+
+#post .first-letter{
+  border-radius: 0px;
+  font-size: 280%;
+  padding: 0px 0px;
+  margin-right: 6px;
+  margin-top: 0;
+  float: left;
+  line-height: 1;
+}
