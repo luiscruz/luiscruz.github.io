@@ -6,6 +6,7 @@ image: "img/blog/2021-09-01/wordcloud.png"
 mermaid: True
 equation: True
 invisible: False
+draft: True
 summary: "Joules, watts, tonnes of CO2, kilowatt-hour, you name it. If you have read any article about energy consumption, you have probably come across these units. This medley of units can sometimes make it difficult to grasp key concepts in your read.
 These units are not necessarily representing the same concept. For example, power (measured in watts) is different from energy consumption (measured in joules). Before diving into green software, we ought to be comfortable with the jargon. This article serves as a go-to source of truth for energy-related metrics."
 ---

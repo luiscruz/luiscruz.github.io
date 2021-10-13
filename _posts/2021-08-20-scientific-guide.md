@@ -6,16 +6,18 @@ image: "img/blog/2021-08-20/og_image.png"
 mermaid: True
 equation: True
 invisible: False
-summary: ""
+draft: True
+summary: "Are you studying the energy consumption of software technologies? Regardless of whether you are focusing on blockchain, artificial intelligence, cloud systems, or any other type of software, it is important to define a reliable approach before diving deep into energy measurements. This post provides a step-by-step guide to help you define a solid scientific methodology to measure software energy consumption. 
+A simple mistake in the methodology might completely void your results and increase the chances of drawing wrong conclusions. We will see how to mitigate any potential bias or errors in the energy measurement setup – this is quintessential if you are planning to publish your results. If you have a general interest in the energy efficiency of software but are not exactly doing research, you may also find this post interesting. Come along and let me know your thoughts."
 ---
 
-In my [previous post](/2021/07/20/measuring-energy.html), we have seen how to measure the energy consumption of a computer in a particular period of time. Although the data gives a reliable indication of the energy consumption, using it as part of an experimental methodology is far from trivial.
+In my [previous post](/2021/07/20/measuring-energy.html), we have covered tools to measure the energy consumption of a computer during a particular period of time. Although these tools provide a reliable indication of the energy consumption, using it as part of a scientific study is far from trivial.
 
-Even when replicated in the exact same computer, energy measurements may be affected by a number of different factors: hardware temperature (CPU, GPU, memory, etc.), room temperature, background tasks running in the system, thread scheduling, and so on.
+Even when replicated in the exact same computer, energy measurements are affected by many different factors: hardware temperature (CPU, GPU, memory, etc.), room temperature, background tasks running in the system, thread scheduling, and so on.
 
 This type of uncertainty in measuring energy consumption creates major difficulties when assessing the energy consumption of a particular version of a software project. For example, energy tests that rely on a single measure will have a **high tendency of being flaky** – i.e., multiple executions of the same test will fail to produce the same result.
 
-This problem takes another level if we are counting on these measurements to make **valid scientific contributions**. Some research projects in the past have underestimated this issue and failed to produce replicable findings. Hence, this article presents a roadmap on how to properly set up a scientific methodology to run energy efficiency experiments. It mostly stems from my previous work on [doing research and publishing]() on Green Software.
+This problem takes another level if we are counting on these measurements to make **groundbreaking research contributions** in this area. Some research projects in the past have underestimated this issue and failed to produce replicable findings. Hence, this article presents a roadmap on how to properly set up a scientific methodology to run energy efficiency experiments. It mostly stems from my previous work on [doing research and publishing](/publications) on Green Software.
 
 
 This article is divided into two main parts: 1) how to set up energy measurements with minimum bias, and 2) how to analyse and take scientific conclusions from your energy measurements.

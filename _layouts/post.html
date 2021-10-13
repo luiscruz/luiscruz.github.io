@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="post" class='container'>
   <a href="/">Home</a> > <a href="/blog">← Blog</a><!-- | <a href="/blog">Blog</a> -->
-<h1>{{ page.title }}<br/>
+<h1>{{ page.title }}{%if page.draft%} (DRAFT){%endif%}<br/>
   <small>{{ page.date | date_to_string }} - <a href="/">{{ page.author }}</a></small></h1>
   
 <div id="content">
