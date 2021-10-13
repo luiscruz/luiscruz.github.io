@@ -6,8 +6,6 @@ image: "img/blog/2021-08-20/og_image.png"
 show_image: True
 mermaid: True
 equation: True
-invisible: False
-draft: True
 summary: "Are you studying the energy consumption of software technologies? Regardless of whether you are focusing on blockchain, artificial intelligence, cloud systems, or any other type of software, it is important to define a reliable approach before diving deep into energy measurements. This post provides a step-by-step guide to help you define a solid scientific methodology to measure software energy consumption. 
 A simple mistake in the methodology might completely void your results and increase the chances of drawing wrong conclusions. We will see how to mitigate any potential bias or errors in the energy measurement setup – this is quintessential if you are planning to publish your results. If you have a general interest in the energy efficiency of software but are not exactly doing research, you may also find this post interesting. Come along and let me know your thoughts."
 ---
