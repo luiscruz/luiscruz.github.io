@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Luís Cruz
-title: Scientific guide to collect and analyse Software Energy Consumption Data 
+title: "Green Software Engineering Done Properly: a Scientific Guide to Set Up Energy Efficiency Experiments"
 image: "img/blog/2021-08-20/og_image.png"
 show_image: True
 mermaid: True
