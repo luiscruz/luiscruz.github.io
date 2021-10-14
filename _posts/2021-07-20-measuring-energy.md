@@ -6,10 +6,11 @@ image: "img/blog/2021-07-20/og_image.png"
 mermaid: True
 equation: True
 invisible: False
+show_image: True
 summary: "Measuring the energy consumption of software is far from being a trivial task. This article provides essential details about energy consumption  tools, their configuration in various software systems, and associated pros and cons. Being able to measure and interpret energy data is one of the most important skills to create Green Software. Read on and let me know your thoughts!"
 ---
 
-Developing green software is the new tech skill that is becoming more and more important. The ambition to achieve climate neutrality is being set by many public- and private-sector leaders and it is evident that the tech sector has an important role here. Soon, every tech company will have to embrace the **green digital transition** and ensuring energy-efficient software is an essential part of this transition.
+<span class="first-letter">D</span>eveloping green software is the new tech skill that is becoming more and more important. The ambition to achieve climate neutrality is being set by many public- and private-sector leaders and it is evident that the tech sector has an important role here. Soon, every tech company will have to embrace the **green digital transition** and ensuring energy-efficient software is an essential part of this transition.
 
 
 There are various ways to ensure green software – tracking its energy consumption is one of the ways but practitioners often find it hard to start in this direction.
