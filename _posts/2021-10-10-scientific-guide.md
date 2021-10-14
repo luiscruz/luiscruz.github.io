@@ -124,7 +124,7 @@ Hence, the question we need to make is: why are these measurements deviating fro
 5. **External physical conditions have changed**. Despite the hassle to control the temperature and other external factors, there are still unexpected variables that may disruptively affect energy consumption. For example, someone opened a window in the middle of your experiments. From that point on all the measurements will have a slight change. If that change is too big the distribution of measurements will no longer be normal.
 6. **Any paranormal phenomena 👻**. Even if you cannot explain it, if it's not normal, don't trust it.
 
-Drawing the plots is the easiest way to get some intuition on whether the distribution is normal. Still, that can be disputable and you don't want the reviewers of your paper raising second thoughts about it. Hence, use the well-reputed statistic test for normality – [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro–Wilk_test). In short, all your samples should have a $p$-value above $0.05$.
+Drawing the plots is the easiest way to get some intuition on whether the distribution is normal. Yet, that can be disputable and you don't want the reviewers of your paper raising second thoughts about it. Hence, use the well-reputed statistic test for normality – [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro–Wilk_test). In short, all your samples should yield a $p$-value above $0.05$.
 
 ### What to do if the samples are not normal? 
 
