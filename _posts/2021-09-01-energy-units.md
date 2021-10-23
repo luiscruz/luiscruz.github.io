@@ -200,6 +200,9 @@ Carbon. Carbon efficiency ≠ energy efficiency
 
 Carbon credits
 
+Green AI they recommend using the number of floating point operations (FPO).
+Elapsed time.
+
 ### Useful resources 📚
 {:id="references"}
 
