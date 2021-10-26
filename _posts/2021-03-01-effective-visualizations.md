@@ -5,9 +5,10 @@ title: 16 Guidelines for Effective Data Visualizations in Academic Papers
 summary: "This article presents basic guidelines to help create effective visualizations. 
 There are no golden rules, but there are some basic guidelines that I find useful based on my experience as an academic. I wrote this article having academic writing in mind, but it is certainly useful for any type of communication."
 image: "img/blog/og_image.jpg"
+show_image: True
 ---
 
-In any research field, we academics devote a considerable part of our work to deliver high-quality articles. We put our best efforts to create engaging narratives that communicate our latest findings. This is a quintessential requirement to publish our research in top-tier academic conferences.
+<span class="first-letter">I</span>n any research field, we academics devote a considerable part of our work to deliver high-quality articles. We put our best efforts to create engaging narratives that communicate our latest findings. This is a quintessential requirement to publish our research in top-tier academic conferences.
 
 Many academics have written about writing best practices or mere tips to help junior researchers avoid common mistakes. These are quite useful. For example, it is quite common to see students misusing hyphen, en dash, and em dash properly ([Wikipedia can help you there](https://nps.edu/web/gwc/dashes-and-hyphens)). If you are interested in learning about writing tips, [Mark Harman's Draft Guidelines] and [Arie van Derusen's Recommendations] are definitely great reads.
 
