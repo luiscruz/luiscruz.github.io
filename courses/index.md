@@ -5,7 +5,7 @@ title: Courses
 
 #### 2021/22
 
-- [Sustainable Software Engineering](https://luiscruz.github.io/course_sustainableSE/). Work in Progress 🚧
+- [Sustainable Software Engineering](https://luiscruz.github.io/course_sustainableSE/2022). Work in Progress 🚧
 
 #### 2020/21
 
