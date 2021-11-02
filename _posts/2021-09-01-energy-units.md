@@ -180,7 +180,6 @@ datacentres
 carbon no nox cox
 
 
-
 Carbon intensity
 
 how to get carbon data from different countries
@@ -190,7 +189,7 @@ https://arxiv.org/pdf/2106.11750.pdf
 Carbon aware computing
 
 
-
+-- EDP energy delay product -- E*t or P*t^2 "This measure is used to give more importance to application runtime, with the goal of making both low energy and fast runtime applications"
 
 Power W (cv, hp).
 Power to Energy contumption

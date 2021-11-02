@@ -11,6 +11,8 @@ title: Courses
 
 - [Release Engineering for Machine Learning Applications (REMLA)](https://se.ewi.tudelft.nl/remla/)
 - [Software Architecture](https://se.ewi.tudelft.nl/delftswa/2021/)
+- [AI in Practice: Preparing for AI (edX)](https://www.edx.org/course/ai-in-practice-preparing-for-ai)
+- [AI in Practice: Applying AI (edX)](https://www.edx.org/course/ai-in-practice-applying-ai)
 
 #### 2018/2019
 
