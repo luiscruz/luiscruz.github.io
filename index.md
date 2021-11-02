@@ -51,6 +51,11 @@ layout: default
 
 <div class="container" >
       <div class="list-group">
+        <a href="https://www.tudelft.nl/onderwijs/opleidingen/masters/cs/msc-computer-science/the-data-science-technology-track" target="_blank" class="list-group-item ">
+          <span class="badge">Web</span>
+                <h4 class="list-group-item-heading"><ion-icon name="ios-school"></ion-icon>&nbsp;Master coordinator of Computer Science, track Data Science & Technology.</h4>
+                <small class="list-group-item-text">Delft University of Technology.</small>
+        </a>
         <a href="https://luiscruz.github.io/papers/cruz2019tools.pdf" target="_blank" class="list-group-item ">
           <span class="badge">Ph.D. Thesis</span>
                 <h4 class="list-group-item-heading"><ion-icon name="ios-leaf"></ion-icon>Tools and Techniques for Energy-Efficient Mobile Application Development</h4>
@@ -60,11 +65,6 @@ layout: default
           <span class="badge">Web</span>
                 <h4 class="list-group-item-heading"><ion-icon name="ios-leaf"></ion-icon> Energy Patterns for Mobile Apps</h4>
                 <small class="list-group-item-text">Online Catalog with 22 patterns to improve the energy efficiency of iOS and Android apps.</small>
-        </a>
-        <a href="https://github.com/luiscruz/awesome-mobile-app-energy-papers" target="_blank" class="list-group-item ">
-          <span class="badge">Web</span>
-                <h4 class="list-group-item-heading"><ion-icon name="paper"></ion-icon> Awesome Mobile App Energy Papers</h4>
-                <small class="list-group-item-text">A curated list of awesome papers that study energy efficiency for mobile applications.</small>
         </a>
         <a href="cv/cvLuisCruz.pdf" target="_blank" class="list-group-item list-group-item-info">
           <span class="badge">PDF</span>
