@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Luís Cruz
-title: "Green Software Engineering Done Properly: a Scientific Guide to Set Up Energy Efficiency Experiments"
+title: "Green Software Engineering Done Right: a Scientific Guide to Set Up Energy Efficiency Experiments"
 image: "img/blog/2021-08-20/og_image.png"
 show_image: True
 mermaid: True
@@ -43,7 +43,7 @@ The first thing we need to make sure of is that the only thing running in our sy
 - turn off notifications;
 - remove any unnecessary services running in the background (e.g., web server, file sharing, etc.);
 - if you do not need an internet or intranet connection, switch off your network;
-- prefer cable over wireless – the energy consumption of the cable is more likely to be stable than a wireless connection.
+- prefer cable over wireless – the energy consumption from a cable connection is more stable than from a wireless connection.
 
 ### Freeze your settings 🥶
 
