@@ -33,3 +33,9 @@
   float: left;
   line-height: 1;
 }
+
+.caption{
+    text-align: center;
+    font-size: 80%;
+    color: gray;
+}
