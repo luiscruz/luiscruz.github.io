@@ -39,3 +39,20 @@
     font-size: 80%;
     color: gray;
 }
+
+
+edit, .edit{
+    color:green;
+}
+
+.footnotes{
+    text-align: left;
+}
+
+a.footnote:before {   
+ content: "[";
+}
+
+a.footnote:after {
+    content: "]";
+}
