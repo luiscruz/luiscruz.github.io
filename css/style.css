@@ -56,3 +56,7 @@ a.footnote:before {
 a.footnote:after {
     content: "]";
 }
+
+#post{
+/*    background-color: cyan;*/
+}
