@@ -6,10 +6,11 @@ image: "img/blog/2021-07-20/og_image.png"
 mermaid: True
 equation: True
 invisible: False
+show_image: True
 summary: "Measuring the energy consumption of software is far from being a trivial task. This article provides essential details about energy consumption  tools, their configuration in various software systems, and associated pros and cons. Being able to measure and interpret energy data is one of the most important skills to create Green Software. Read on and let me know your thoughts!"
 ---
 
-Developing green software is the new tech skill that is becoming more and more important. The ambition to achieve climate neutrality is being set by many public- and private-sector leaders and it is evident that the tech sector has an important role here. Soon, every tech company will have to embrace the **green digital transition** and ensuring energy-efficient software is an essential part of this transition.
+<span class="first-letter">D</span>eveloping green software is the new tech skill that is becoming more and more important. The ambition to achieve climate neutrality is being set by many public- and private-sector leaders and it is evident that the tech sector has an important role here. Soon, every tech company will have to embrace the **green digital transition** and ensuring energy-efficient software is an essential part of this transition.
 
 
 There are various ways to ensure green software – tracking its energy consumption is one of the ways but practitioners often find it hard to start in this direction.
@@ -411,15 +412,16 @@ Use the decision diagram below to help you decide on which energy profiler to us
 
 <div class="mermaid">
 graph TD
-A[Which Energy Profiler should I use?] --> C{OS?}
-C -->|Mac| D{Comfortable with<br/> the command-line?}
+A[Which Energy Profiler should I use?] --> CA
+CA{Nvidia GPU-intensitve?}
+C -->|Mac Intel| D{Comfortable with<br/> the command-line?}
 D -->|Yes| DY[Intel PowerLog]
 D -->|No| DN[Power Gadget]
-C -->|Linux| CA{Software using Nvidia GPU?}
-CA -->|No| E{Processor?}
+C -->|Linux| E{Processor?}
+CA -->|No| C{OS?}
 E -->|Intel| F[Powerstat, PowerTOP, Perf, or Likwid]
 E -->|AMD| PowerTOP
-CA -->|Yes| Nvidia-smi
+CA ---->|Yes<br/> Windows/Linux| Nvidia-smi
 C -->|Windows| D
 </div>
 
@@ -446,6 +448,9 @@ There are many other energy profilers out there. In this article, we are only co
 [Website Carbon Calculator](https://www.websitecarbon.com)
 : Measure how green is your website when compared to other websites out there. It provides a rough estimation of the carbon footprint of a webpage based on the data transferred while loading it.
 
+[Syspower](https://github.com/s4y/syspower/)
+: Lightweight tool to collect real-time power data from your Mac. It reads directly from the [System Management Controller](https://en.wikipedia.org/wiki/System_Management_Controller) in Intel-based Macs.
+
 Windows Energy Estimation Engine (E3)
 : Built-in tool available on Microsoft Windows. Check out the [tutorial by Scott Chamberlin](https://devblogs.microsoft.com/sustainable-software/measuring-your-application-power-and-carbon-impact-part-1/).
 
@@ -467,9 +472,10 @@ If want to learn more about this topic, here are some follow-up pointers you sho
 - [Energy Patterns for Android Applications](https://tqrg.github.io/energy-patterns/). A catalog of 22 energy patterns. Although these patterns were tuned for Android apps, they might inspire you on energy-efficient solutions for your server/desktop software projects.
 - [ClimateAction.tech](https://climateaction.tech). A great slack-based tech community to meet, discuss, and learn about climate action. Its main focus lies on Business Culture & Behavior Change, Green Software Engineering, Sustainable Product Design, and Low-Carbon Infrastructure. I totally recommend it!
 
-<!-- #### Acknowledgements
+#### Acknowledgements
 
-Thanks Clara Gomes and Pooja Rani for the feedback on early revisions of the article. -->
+Kudos to Clara Gomes and Pooja Rani for the feedback on early revisions of the article. Thanks, [Stefanos Georgiou] for adding Perf and Nvidia-smi.
 
 [Intel Power Gadget]: https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html
 [AMD]: https://en.wikipedia.org/wiki/Advanced_Micro_Devices
+[Stefanos Georgiou]: https://twitter.com/stefanosGeorgi1/

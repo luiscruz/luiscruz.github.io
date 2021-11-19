@@ -21,7 +21,42 @@
   max-width: 50em;
 }
 #post img{
-/*  display: block;
-  margin-left: auto;
-  margin-right: auto;
-*/}
+    max-width:100%
+}
+
+#post .first-letter{
+  border-radius: 0px;
+  font-size: 280%;
+  padding: 0px 0px;
+  margin-right: 6px;
+  margin-top: 0;
+  float: left;
+  line-height: 1;
+}
+
+.caption{
+    text-align: center;
+    font-size: 80%;
+    color: gray;
+}
+
+
+edit, .edit{
+    color:green;
+}
+
+.footnotes{
+    text-align: left;
+}
+
+a.footnote:before {   
+ content: "[";
+}
+
+a.footnote:after {
+    content: "]";
+}
+
+#post{
+/*    background-color: cyan;*/
+}

@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="91 113 649 344"
+   width="649pt"
+   height="344pt"
+   id="svg1231"
+   sodipodi:docname="branch_ilustration-static.svg"
+   inkscape:version="1.0.1 (c497b03c, 2020-09-10)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1359"
+     inkscape:window-height="847"
+     id="namedview1233"
+     showgrid="false"
+     inkscape:zoom="0.82280431"
+     inkscape:cx="432.66667"
+     inkscape:cy="229.33333"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1227" />
+  <metadata
+     id="metadata833"> Produced by OmniGraffle 6.5.1 <dc:date>2021-11-16 11:26:51 +0000</dc:date>
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <defs
+     id="defs837">
+    <font-face
+       font-family="Helvetica Neue"
+       font-size="16"
+       panose-1="2 0 4 3 0 0 0 2 0 4"
+       units-per-em="1000"
+       underline-position="-100"
+       underline-thickness="50"
+       slope="0"
+       x-height="523"
+       cap-height="721"
+       ascent="966.99524"
+       descent="-212.99744"
+       font-weight="300"
+       id="font-face835">
+      <font-face-src>
+        <font-face-name
+           name="HelveticaNeue-Light" />
+      </font-face-src>
+    </font-face>
+  </defs>
+  <g
+     stroke="none"
+     stroke-opacity="1"
+     stroke-dasharray="none"
+     fill="none"
+     fill-opacity="1"
+     id="g1229">
+    <title
+       id="title839">Canvas 2</title>
+    <g
+       id="g1227">
+      <title
+         id="title841">Layer 1</title>
+      <ellipse
+         cx="283.46457"
+         cy="283.46457"
+         rx="189.92155"
+         ry="119.05531"
+         fill="#ffffff"
+         id="ellipse843" />
+      <ellipse
+         cx="283.46457"
+         cy="283.46457"
+         rx="189.92155"
+         ry="119.05531"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="ellipse845" />
+      <circle
+         cx="202.67715"
+         cy="303.3082"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle847" />
+      <circle
+         cx="202.67715"
+         cy="303.3082"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle849" />
+      <path
+         d="m 189.92126,331.65354 c 0,-10.95872 5.71102,-19.84252 12.7559,-19.84252 7.04489,0 12.75591,8.8838 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path851" />
+      <path
+         d="m 189.92126,331.65354 c 0,-10.95872 5.71102,-19.84252 12.7559,-19.84252 7.04489,0 12.75591,8.8838 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path853" />
+      <circle
+         cx="225.35432"
+         cy="276.37796"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle855" />
+      <circle
+         cx="225.35432"
+         cy="276.37796"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle857" />
+      <path
+         d="m 212.59842,304.72329 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path859" />
+      <path
+         d="m 212.59842,304.72329 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path861" />
+      <circle
+         cx="282.04724"
+         cy="290.55118"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle863" />
+      <circle
+         cx="282.04724"
+         cy="290.55118"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle865" />
+      <path
+         d="m 269.29134,318.89652 c 0,-10.95872 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.8838 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path867" />
+      <path
+         d="m 269.29134,318.89652 c 0,-10.95872 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.8838 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path869" />
+      <circle
+         cx="154.48819"
+         cy="272.12711"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle871" />
+      <circle
+         cx="154.48819"
+         cy="272.12711"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle873" />
+      <path
+         d="m 141.73228,300.47244 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path875" />
+      <path
+         d="m 141.73228,300.47244 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path877" />
+      <circle
+         cx="194.17323"
+         cy="255.11923"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle879" />
+      <circle
+         cx="194.17323"
+         cy="255.11923"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle881" />
+      <path
+         d="m 181.41732,283.46457 c 0,-10.95873 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path883" />
+      <path
+         d="m 181.41732,283.46457 c 0,-10.95873 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path885" />
+      <circle
+         cx="265.03937"
+         cy="255.11923"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle887" />
+      <circle
+         cx="265.03937"
+         cy="255.11923"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle889" />
+      <path
+         d="m 252.28346,283.46457 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path891" />
+      <path
+         d="m 252.28346,283.46457 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path893" />
+      <circle
+         cx="250.86613"
+         cy="307.55905"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle895" />
+      <circle
+         cx="250.86613"
+         cy="307.55905"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle897" />
+      <path
+         d="m 238.11023,335.9044 c 0,-10.95873 5.71103,-19.84253 12.75591,-19.84253 7.04488,0 12.75591,8.8838 12.75591,19.84253 h -25.51182"
+         fill="#e6e6e6"
+         id="path899" />
+      <path
+         d="m 238.11023,335.9044 c 0,-10.95873 5.71103,-19.84253 12.75591,-19.84253 7.04488,0 12.75591,8.8838 12.75591,19.84253 h -25.51182"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path901" />
+      <circle
+         cx="219.68504"
+         cy="341.5748"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle903" />
+      <circle
+         cx="219.68504"
+         cy="341.5748"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle905" />
+      <path
+         d="m 206.92913,369.92014 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path907" />
+      <path
+         d="m 206.92913,369.92014 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path909" />
+      <circle
+         cx="160.15749"
+         cy="316.06299"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle911" />
+      <circle
+         cx="160.15749"
+         cy="316.06299"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle913" />
+      <path
+         d="m 147.40157,344.40833 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path915" />
+      <path
+         d="m 147.40157,344.40833 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path917" />
+      <circle
+         cx="120.47244"
+         cy="282.04724"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle919" />
+      <circle
+         cx="120.47244"
+         cy="282.04724"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle921" />
+      <path
+         d="m 107.71653,310.39258 c 0,-10.95872 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.75591,8.8838 12.75591,19.84252 h -25.51182"
+         fill="#e6e6e6"
+         id="path923" />
+      <path
+         d="m 107.71653,310.39258 c 0,-10.95872 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.75591,8.8838 12.75591,19.84252 h -25.51182"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path925" />
+      <circle
+         cx="160.15749"
+         cy="225.35432"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle927" />
+      <circle
+         cx="160.15749"
+         cy="225.35432"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle929" />
+      <path
+         d="m 147.40157,253.69967 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path931" />
+      <path
+         d="m 147.40157,253.69967 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path933" />
+      <circle
+         cx="202.67715"
+         cy="209.76489"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle935" />
+      <circle
+         cx="202.67715"
+         cy="209.76489"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle937" />
+      <path
+         d="m 189.92126,238.11023 c 0,-10.95872 5.71102,-19.84251 12.7559,-19.84251 7.04489,0 12.75591,8.88379 12.75591,19.84251 h -25.51181"
+         fill="#e6e6e6"
+         id="path939" />
+      <path
+         d="m 189.92126,238.11023 c 0,-10.95872 5.71102,-19.84251 12.7559,-19.84251 7.04489,0 12.75591,8.88379 12.75591,19.84251 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path941" />
+      <circle
+         cx="291.96851"
+         cy="221.10349"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle943" />
+      <circle
+         cx="291.96851"
+         cy="221.10349"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle945" />
+      <path
+         d="m 279.2126,249.44882 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.5118"
+         fill="#e6e6e6"
+         id="path947" />
+      <path
+         d="m 279.2126,249.44882 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.5118"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path949" />
+      <circle
+         cx="307.55905"
+         cy="272.12711"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle951" />
+      <circle
+         cx="307.55905"
+         cy="272.12711"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle953" />
+      <path
+         d="m 294.80315,300.47244 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04489,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path955" />
+      <path
+         d="m 294.80315,300.47244 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04489,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path957" />
+      <circle
+         cx="364.25198"
+         cy="216.85039"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle959" />
+      <circle
+         cx="364.25198"
+         cy="216.85039"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle961" />
+      <path
+         d="m 351.49606,245.19573 c 0,-10.95873 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path963" />
+      <path
+         d="m 351.49606,245.19573 c 0,-10.95873 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path965" />
+      <circle
+         cx="418.11023"
+         cy="225.35432"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle967" />
+      <circle
+         cx="418.11023"
+         cy="225.35432"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle969" />
+      <path
+         d="m 405.35433,253.69967 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04489,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path971" />
+      <path
+         d="m 405.35433,253.69967 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04489,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path973" />
+      <circle
+         cx="386.92914"
+         cy="255.11923"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle975" />
+      <circle
+         cx="386.92914"
+         cy="255.11923"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle977" />
+      <path
+         d="m 374.17323,283.46457 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path979" />
+      <path
+         d="m 374.17323,283.46457 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path981" />
+      <circle
+         cx="423.77954"
+         cy="266.45782"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle983" />
+      <circle
+         cx="423.77954"
+         cy="266.45782"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle985" />
+      <path
+         d="m 411.02362,294.80315 c 0,-10.95873 5.71102,-19.84252 12.75591,-19.84252 7.04487,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path987" />
+      <path
+         d="m 411.02362,294.80315 c 0,-10.95873 5.71102,-19.84252 12.75591,-19.84252 7.04487,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path989" />
+      <circle
+         cx="282.04724"
+         cy="341.5748"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle991" />
+      <circle
+         cx="282.04724"
+         cy="341.5748"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle993" />
+      <path
+         d="m 269.29134,369.92014 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path995" />
+      <path
+         d="m 269.29134,369.92014 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path997" />
+      <circle
+         cx="250.86613"
+         cy="358.58267"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle999" />
+      <circle
+         cx="250.86613"
+         cy="358.58267"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1001" />
+      <path
+         d="m 238.11023,386.92801 c 0,-10.95872 5.71103,-19.84251 12.75591,-19.84251 7.04488,0 12.75591,8.88379 12.75591,19.84251 h -25.51182"
+         fill="#e6e6e6"
+         id="path1003" />
+      <path
+         d="m 238.11023,386.92801 c 0,-10.95872 5.71103,-19.84251 12.75591,-19.84251 7.04488,0 12.75591,8.88379 12.75591,19.84251 h -25.51182"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1005" />
+      <circle
+         cx="233.85828"
+         cy="229.60741"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1007" />
+      <circle
+         cx="233.85828"
+         cy="229.60741"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1009" />
+      <path
+         d="m 221.10236,257.95275 c 0,-10.95872 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1011" />
+      <path
+         d="m 221.10236,257.95275 c 0,-10.95872 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1013" />
+      <circle
+         cx="306.14172"
+         cy="323.15073"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1015" />
+      <circle
+         cx="306.14172"
+         cy="323.15073"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1017" />
+      <path
+         d="m 293.38583,351.49606 c 0,-10.95872 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.8838 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1019" />
+      <path
+         d="m 293.38583,351.49606 c 0,-10.95872 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.8838 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1021" />
+      <circle
+         cx="316.06299"
+         cy="364.25198"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1023" />
+      <circle
+         cx="316.06299"
+         cy="364.25198"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1025" />
+      <path
+         d="m 303.30708,392.5973 c 0,-10.95872 5.71102,-19.84251 12.75591,-19.84251 7.04488,0 12.75591,8.88379 12.75591,19.84251 h -25.51182"
+         fill="#e6e6e6"
+         id="path1027" />
+      <path
+         d="m 303.30708,392.5973 c 0,-10.95872 5.71102,-19.84251 12.75591,-19.84251 7.04488,0 12.75591,8.88379 12.75591,19.84251 h -25.51182"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1029" />
+      <circle
+         cx="345.82678"
+         cy="259.37009"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1031" />
+      <circle
+         cx="345.82678"
+         cy="259.37009"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1033" />
+      <path
+         d="m 333.07086,287.71542 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.75591,8.88379 12.75591,19.84252 h -25.51182"
+         fill="#e6e6e6"
+         id="path1035" />
+      <path
+         d="m 333.07086,287.71542 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.75591,8.88379 12.75591,19.84252 h -25.51182"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1037" />
+      <circle
+         cx="342.99213"
+         cy="328.82001"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1039" />
+      <circle
+         cx="342.99213"
+         cy="328.82001"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1041" />
+      <path
+         d="m 330.23622,357.16535 c 0,-10.95872 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.8838 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1043" />
+      <path
+         d="m 330.23622,357.16535 c 0,-10.95872 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.8838 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1045" />
+      <circle
+         cx="406.77164"
+         cy="331.65466"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1047" />
+      <circle
+         cx="406.77164"
+         cy="331.65466"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1049" />
+      <path
+         d="m 394.01575,360 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1051" />
+      <path
+         d="m 394.01575,360 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.04488,0 12.75591,8.88379 12.75591,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1053" />
+      <circle
+         cx="375.59055"
+         cy="341.5748"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1055" />
+      <circle
+         cx="375.59055"
+         cy="341.5748"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1057" />
+      <path
+         d="m 362.83464,369.92014 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1059" />
+      <path
+         d="m 362.83464,369.92014 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1061" />
+      <circle
+         cx="449.29135"
+         cy="290.55118"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1063" />
+      <circle
+         cx="449.29135"
+         cy="290.55118"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1065" />
+      <path
+         d="m 436.53543,318.89652 c 0,-10.95872 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1067" />
+      <path
+         d="m 436.53543,318.89652 c 0,-10.95872 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1069" />
+      <rect
+         x="346.35434"
+         y="300.47244"
+         width="59"
+         height="20"
+         fill="#ffffff"
+         id="rect1071" />
+      <text
+         transform="translate(346.35433,301.24038)"
+         fill="#000000"
+         id="text1077"><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="0.148"
+           y="15"
+           id="tspan1073">Gr</tspan><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="16.756001"
+           y="15"
+           id="tspan1075">een IT</tspan></text>
+      <ellipse
+         cx="374.17322"
+         cy="338.74017"
+         rx="53.858353"
+         ry="43.937077"
+         fill="#00ff00"
+         id="ellipse1079"
+         style="mix-blend-mode:overlay" />
+      <ellipse
+         cx="374.17322"
+         cy="338.74017"
+         rx="53.858353"
+         ry="43.937077"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="ellipse1081" />
+      <rect
+         x="469.89371"
+         y="172.67606"
+         width="268"
+         height="32"
+         fill="#c5ffcd"
+         id="rect1083" />
+      <rect
+         x="469.89371"
+         y="172.67606"
+         width="268"
+         height="32"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="rect1085" />
+      <text
+         transform="translate(477.8937,179.44399)"
+         fill="#000000"
+         id="text1091"><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="0.48800001"
+           y="15"
+           id="tspan1087">Education for Softwar</tspan><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="149.28799"
+           y="15"
+           id="tspan1089">e Sustainability</tspan></text>
+      <rect
+         x="505.39371"
+         y="269.29135"
+         width="197"
+         height="32"
+         fill="#c5ffcd"
+         id="rect1093" />
+      <rect
+         x="505.39371"
+         y="269.29135"
+         width="197"
+         height="32"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="rect1095" />
+      <text
+         transform="translate(513.3937,276.05928)"
+         fill="#000000"
+         id="text1103"><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="0.34"
+           y="15"
+           id="tspan1097">Measur</tspan><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="51.124001"
+           y="15"
+           id="tspan1099">e Energy Effi</tspan><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="136.78799"
+           y="15"
+           id="tspan1101">ciency</tspan></text>
+      <rect
+         x="494.39371"
+         y="369.68503"
+         width="219"
+         height="32"
+         fill="#c5ffcd"
+         id="rect1105" />
+      <rect
+         x="494.39371"
+         y="369.68503"
+         width="219"
+         height="32"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="rect1107" />
+      <text
+         transform="translate(502.3937,376.45298)"
+         fill="#000000"
+         id="text1115"><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="0.124"
+           y="15"
+           id="tspan1109">Gr</tspan><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="16.732"
+           y="15"
+           id="tspan1111">een Softwar</tspan><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="99.148003"
+           y="15"
+           id="tspan1113">e Development</tspan></text>
+      <rect
+         x="242.94489"
+         y="169.8414"
+         width="85"
+         height="30"
+         fill="#ffffff"
+         id="rect1117" />
+      <text
+         transform="translate(247.94488,175.60935)"
+         fill="#000000"
+         id="text1121"><tspan
+           font-family="'Helvetica Neue'"
+           font-size="16px"
+           font-weight="300"
+           x="0.0040000002"
+           y="15"
+           id="tspan1119">IT Services</tspan></text>
+      <path
+         d="m 390.85538,185.24429 c 26.24398,-18.86589 54.77802,-35.30236 82.53044,-43.51201 62.72003,-18.55367 101.07093,10.93916 118.78673,30.94377"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1123" />
+      <line
+         x1="603.89368"
+         y1="204.67606"
+         x2="603.89368"
+         y2="269.29135"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="line1125" />
+      <line
+         x1="603.89368"
+         y1="301.29135"
+         x2="603.89368"
+         y2="369.68503"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="line1127" />
+      <path
+         d="m 590.80406,401.68504 c -19.42092,19.8401 -60.45194,48.74059 -123.08753,28.75914 -28.15661,-8.98228 -56.57236,-26.53243 -82.37774,-46.47141"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1129" />
+      <circle
+         cx="474.80316"
+         cy="122.70978"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1131" />
+      <circle
+         cx="474.80316"
+         cy="122.70978"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1133" />
+      <path
+         d="m 462.04724,151.05512 c 0,-10.95873 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1135" />
+      <path
+         d="m 462.04724,151.05512 c 0,-10.95873 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1137" />
+      <circle
+         cx="503.1496"
+         cy="122.70978"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1139" />
+      <circle
+         cx="503.1496"
+         cy="122.70978"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1141" />
+      <path
+         d="m 490.3937,151.05512 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.0449,0 12.7559,8.88379 12.7559,19.84252 h -25.5118"
+         fill="#e6e6e6"
+         id="path1143" />
+      <path
+         d="m 490.3937,151.05512 c 0,-10.95873 5.71102,-19.84252 12.7559,-19.84252 7.0449,0 12.7559,8.88379 12.7559,19.84252 h -25.5118"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1145" />
+      <circle
+         cx="488.97638"
+         cy="128.37907"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1147" />
+      <circle
+         cx="488.97638"
+         cy="128.37907"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1149" />
+      <path
+         d="m 476.22047,156.72441 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1151" />
+      <path
+         d="m 476.22047,156.72441 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1153" />
+      <circle
+         cx="591.02362"
+         cy="216.85039"
+         r="7.0866256"
+         fill="#c5ffcd"
+         id="circle1155" />
+      <circle
+         cx="591.02362"
+         cy="216.85039"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1157" />
+      <path
+         d="m 578.2677,245.19573 c 0,-10.95873 5.71104,-19.84252 12.75592,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 H 578.2677"
+         fill="#c5ffcd"
+         id="path1159" />
+      <path
+         d="m 578.2677,245.19573 c 0,-10.95873 5.71104,-19.84252 12.75592,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 H 578.2677"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1161" />
+      <circle
+         cx="619.37006"
+         cy="216.85039"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1163" />
+      <circle
+         cx="619.37006"
+         cy="216.85039"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1165" />
+      <path
+         d="m 606.61417,245.19573 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1167" />
+      <path
+         d="m 606.61417,245.19573 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1169" />
+      <circle
+         cx="605.19684"
+         cy="222.51968"
+         r="7.0866256"
+         fill="#e6e6e6"
+         id="circle1171" />
+      <circle
+         cx="605.19684"
+         cy="222.51968"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1173" />
+      <path
+         d="m 592.44094,250.86502 c 0,-10.95872 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         fill="#e6e6e6"
+         id="path1175" />
+      <path
+         d="m 592.44094,250.86502 c 0,-10.95872 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1177" />
+      <circle
+         cx="591.02362"
+         cy="316.06299"
+         r="7.0866256"
+         fill="#c5ffcd"
+         id="circle1179" />
+      <circle
+         cx="591.02362"
+         cy="316.06299"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1181" />
+      <path
+         d="m 578.2677,344.40833 c 0,-10.95873 5.71104,-19.84252 12.75592,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 H 578.2677"
+         fill="#c5ffcd"
+         id="path1183" />
+      <path
+         d="m 578.2677,344.40833 c 0,-10.95873 5.71104,-19.84252 12.75592,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 H 578.2677"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1185" />
+      <circle
+         cx="619.37006"
+         cy="316.06299"
+         r="7.0866256"
+         fill="#c5ffcd"
+         id="circle1187" />
+      <circle
+         cx="619.37006"
+         cy="316.06299"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1189" />
+      <path
+         d="m 606.61417,344.40833 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         fill="#c5ffcd"
+         id="path1191" />
+      <path
+         d="m 606.61417,344.40833 c 0,-10.95873 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.88379 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1193" />
+      <circle
+         cx="605.19684"
+         cy="321.73227"
+         r="7.0866256"
+         fill="#c5ffcd"
+         id="circle1195" />
+      <circle
+         cx="605.19684"
+         cy="321.73227"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1197" />
+      <path
+         d="m 592.44094,350.07762 c 0,-10.95872 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         fill="#c5ffcd"
+         id="path1199" />
+      <path
+         d="m 592.44094,350.07762 c 0,-10.95872 5.71102,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1201" />
+      <circle
+         cx="480.47244"
+         cy="420.94489"
+         r="7.0866256"
+         fill="#c5ffcd"
+         id="circle1203" />
+      <circle
+         cx="480.47244"
+         cy="420.94489"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1205" />
+      <path
+         d="m 467.71653,449.29022 c 0,-10.95872 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         fill="#c5ffcd"
+         id="path1207" />
+      <path
+         d="m 467.71653,449.29022 c 0,-10.95872 5.71103,-19.84252 12.75591,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1209" />
+      <circle
+         cx="508.81891"
+         cy="420.94489"
+         r="7.0866256"
+         fill="#c5ffcd"
+         id="circle1211" />
+      <circle
+         cx="508.81891"
+         cy="420.94489"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1213" />
+      <path
+         d="m 496.063,449.29022 c 0,-10.95872 5.711,-19.84252 12.7559,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 H 496.063"
+         fill="#c5ffcd"
+         id="path1215" />
+      <path
+         d="m 496.063,449.29022 c 0,-10.95872 5.711,-19.84252 12.7559,-19.84252 7.04488,0 12.7559,8.8838 12.7559,19.84252 H 496.063"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1217" />
+      <circle
+         cx="494.64566"
+         cy="426.61417"
+         r="7.0866256"
+         fill="#c5ffcd"
+         id="circle1219" />
+      <circle
+         cx="494.64566"
+         cy="426.61417"
+         r="7.0866256"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="circle1221" />
+      <path
+         d="m 481.88976,454.9595 c 0,-10.95872 5.71102,-19.8425 12.75591,-19.8425 7.04488,0 12.7559,8.88378 12.7559,19.8425 h -25.51181"
+         fill="#c5ffcd"
+         id="path1223" />
+      <path
+         d="m 481.88976,454.9595 c 0,-10.95872 5.71102,-19.8425 12.75591,-19.8425 7.04488,0 12.7559,8.88378 12.7559,19.8425 h -25.51181"
+         stroke="#000000"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-width="1"
+         id="path1225" />
+    </g>
+  </g>
+</svg>
