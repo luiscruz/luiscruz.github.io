@@ -13,7 +13,7 @@ Developing green software is the new tech skill that is becoming more and more i
 
 
 There are various ways to ensure green software – tracking its energy consumption is one of the ways but practitioners often find it hard to start in this direction.
-In this article, we are going to cover 6 different ways of measuring the energy consumption of your code. There is not a single approach since different platforms require different strategies. For example, some tools only work with Intel CPUs, other only work with a particular OS, and so on.
+In this article, we are going to cover 7 different ways of measuring the energy consumption of your code. There is not a single approach since different platforms require different strategies. For example, some tools only work with Intel CPUs, other only work with a particular OS, and so on.
 Every time I want to measure energy consumption, I have to study a ton of different tools before I find the right power tool that works with my software system. This article will help you skip that part of the deal and start measuring energy right away!
 
 ## Power Monitors vs Energy Profilers
@@ -253,8 +253,64 @@ sudo sysctl -w kernel.perf_event_paranoid=-1
 Note that the above settings will not persist after restarting your system.
 
 
+### 6. Likwid
+<small>📝 [Official webpage](https://hpc.fau.de/research/tools/likwid/). Works on Linux devices with Intel processor.
+</small>
 
-### 6. Nvidia-smi
+Another quick way of obtaining energy and power measurements from Intel processors, is through Likwid.
+At its heart, Likwid uses the RAPL interface, developed by Intel, to fetch energy and power measurements
+from different domains of a CPU.
+
+First, clone the official repository and build as following:
+
+```bash
+git clone https://github.com/RRZE-HPC/likwid.git
+cd likwid
+make
+sudo make install
+```
+
+Then, you may fetch energy and power measurements by executing the following command:
+
+```bash
+likwid-powermeter sleep 5
+```
+
+Then, likwid will provide you with the following output:
+
+```bash
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+CPU type:	Intel Kabylake processor
+CPU clock:	1.99 GHz
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Runtime: 6.96028 s
+Measure for socket 0 on CPU 0
+Domain PKG:
+Energy consumed: 24.9688 Joules
+Power consumed: 3.58732 Watt
+Domain PP0:
+Energy consumed: 11.2714 Joules
+Power consumed: 1.61939 Watt
+Domain PP1:
+Energy consumed: 2.91577 Joules
+Power consumed: 0.418916 Watt
+Domain DRAM:
+Energy consumed: 11.8179 Joules
+Power consumed: 1.6979 Watt
+Domain PLATFORM:
+Energy consumed: 77.1105 Joules
+Power consumed: 11.0786 Watt
+--------------------------------------------------------------------------------
+```
+
+Compared to Perf, Likwid does not offer an option such as `-r` to run a test mutliple of times.
+However, it offers power apart form energy measurements.
+Moreover, Likwid offers other options such as temperature monitoring per thread.
+
+
+### 7. Nvidia-smi
 <small>📝 [Official webpage](https://developer.nvidia.com/nvidia-system-management-interface). Works on Linux with Nvidia GPU devices; but never tested it on Windows.
 </small>
 
@@ -361,7 +417,7 @@ D -->|Yes| DY[Intel PowerLog]
 D -->|No| DN[Power Gadget]
 C -->|Linux| CA{Software using Nvidia GPU?}
 CA -->|No| E{Processor?}
-E -->|Intel| F[Powerstat, PowerTOP, or Perf]
+E -->|Intel| F[Powerstat, PowerTOP, Perf, or Likwid]
 E -->|AMD| PowerTOP
 CA -->|Yes| Nvidia-smi
 C -->|Windows| D
