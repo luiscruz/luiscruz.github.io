@@ -474,7 +474,7 @@ If want to learn more about this topic, here are some follow-up pointers you sho
 
 #### Acknowledgements
 
-Kudos to Clara Gomes and Pooja Rani for the feedback on early revisions of the article. Thanks, [Stefanos Georgiou] for adding Perf and Nvidia-smi.
+Kudos to Clara Gomes and Pooja Rani for the feedback on early revisions of the article. Thanks, [Stefanos Georgiou](https://stefanos1316.github.io/my_curriculum_vitae/index.html) for adding Perf, Nvidia-smi, and Likwid.
 
 [Intel Power Gadget]: https://software.intel.com/content/www/us/en/develop/articles/intel-power-gadget.html
 [AMD]: https://en.wikipedia.org/wiki/Advanced_Micro_Devices
