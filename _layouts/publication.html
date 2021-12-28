@@ -7,7 +7,7 @@ layout: default
 {% include menu.md %}
 
 {%if page.image %}
-<img class="pull-right rounded" style="max-width:300px; padding-left: 10px" src="/img/{{page.image}}" />
+<img class="pull-right rounded" style="max-width:300px; margin-left: 20px; {%if page.image-border %} border: solid 0.5px;{%endif%}" src="/img/{{page.image}}" />
 {% endif %}
 <h2> {{page.title}} </h2>
 {% if page.award %}
