@@ -14,7 +14,7 @@ bibtex: |-
     title = {Tools to Measure Software Energy Consumption from your Computer},
     author = {Lu\'{i}s Cruz},
     year = {2021},
-    howpublished = {\url{http://luiscruz.github.io/2021/07/20/measuring-energy.html}},
+    howpublished={\url{http://luiscruz.github.io/2021/07/20/measuring-energy.html}},
     doi = {10.6084/m9.figshare.19145549.v1},
     note = {Blog post.}
   }

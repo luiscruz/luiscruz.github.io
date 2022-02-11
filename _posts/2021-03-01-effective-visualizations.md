@@ -7,11 +7,11 @@ There are no golden rules, but there are some basic guidelines that I find usefu
 image: "img/blog/og_image.jpg"
 show_image: True
 bibtex: |-
-  @misc{cruz2021tools,
+  @misc{cruz2021effective,
     title = {16 Guidelines for Effective Data Visualizations in Academic Papers},
     author = {Lu\'{i}s Cruz},
     year = {2021},
-    howpublished = {\url{http://luiscruz.github.io/2021/03/01/effective-visualizations.html}},
+    howpublished={\url{http://luiscruz.github.io/2021/03/01/effective-visualizations.html}},
     note = {Blog post.}
   }
 ---
