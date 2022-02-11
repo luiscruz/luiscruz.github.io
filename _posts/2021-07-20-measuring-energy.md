@@ -8,6 +8,16 @@ equation: True
 invisible: False
 show_image: True
 summary: "Measuring the energy consumption of software is far from being a trivial task. This article provides essential details about energy consumption  tools, their configuration in various software systems, and associated pros and cons. Being able to measure and interpret energy data is one of the most important skills to create Green Software. Read on and let me know your thoughts!"
+doi: 10.6084/m9.figshare.19145549
+bibtex: |-
+  @misc{cruz2021tools,
+    title = {Tools to Measure Software Energy Consumption from your Computer},
+    author = {Lu\'{i}s Cruz},
+    year = {2021},
+    howpublished = {\url{http://luiscruz.github.io/2021/07/20/measuring-energy.html}},
+    doi = {10.6084/m9.figshare.19145549.v1},
+    note = {Blog post.}
+  }
 ---
 
 <span class="first-letter">D</span>eveloping green software is the new tech skill that is becoming more and more important. The ambition to achieve climate neutrality is being set by many public- and private-sector leaders and it is evident that the tech sector has an important role here. Soon, every tech company will have to embrace the **green digital transition** and ensuring energy-efficient software is an essential part of this transition.

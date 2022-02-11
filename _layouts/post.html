@@ -13,6 +13,14 @@ layout: default
 {% if page.show_image %}<img class="center-block" style="max-height:4em" src="{{page.image | absolute_url}}"/>{%endif%}
 <br/>
 {{ content }}
+
+{% if page.bibtex %}
+<strong>Bibtex metadata</strong>:
+{% highlight bibtex %}
+{{page.bibtex}}
+{% endhighlight %}
+{% endif %}
+
 </div>
 
 <p><a href="#">&uarr; Back to the top.</a></p>
