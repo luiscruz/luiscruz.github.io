@@ -73,8 +73,18 @@ layout: default
         </a>
       </div>
 
+
+</div>
+<div class="container" markdown="block">
+# News
+
+{% for update in site.data.updates %}
+- **{{update.date}}**: {{update.msg}}
+{%- if update.link %} [🔗 Link]({{update.link}}){%endif%}
+{%endfor%}
 </div>
 
+<br/>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
