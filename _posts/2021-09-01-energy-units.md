@@ -107,7 +107,7 @@ energy_consumption = np.trapz(power_sample, timestamps)
 
 If you have ever worried about the battery life of your mobile devices, you have probably come across this unit: *milliampere hour*, abbreviated as $\text{mAh}$. **This is not a unit of energy.** It is rather a unit to measure capacity, a different parameter. To convert capacity to energy consumption we have to multiply the capacity by the voltage. For example if you have used $1000\text{mAh}$ from your battery to run a smartphone device operating at the voltage of $3.8$ volts, the total energy consumption would be as follows:
 
-$$W = 1000\text{mAh} \times 3.8\text{V} = 3800\text{mWh} = 3.8\text{Wh} = 3.8 \times 3600 \text{J} = 13680 J$$
+$$W = 1000\text{mAh} \times 3.8\text{V} = 3800\text{mWh} = 3.8\text{Wh} = 3.8 \times 3600 \text{J} = 13680 \text{J}$$
 
 (Note that the calculation above would have been much simpler if $\text{mAh}$ was an SI unit.)
 
@@ -138,7 +138,7 @@ Hence, we resort to the **carbon footprint** to measure and communicate greenhou
 - million metric tonnes of carbon dioxide equivalent ($MMTCDE$ or $MMT CO_2eq$)
 - kilograms of carbon dioxide equivalent ($\text{kg}CO_2eq$). By default, use this one, as it is the SI unit for mass.
 
-And because when we talk about gas emissions we are not only talking about carbon dioxide, we have to sum the emissions of all greenhouse gases. However, not all gases have the same impact on the environment. For example, $1\text{kg}$ of CH<sub>4</sub> is estimated to be 21 times for harmful to the environment than $1\text{kg}$ of CO<sub>2</sub>.
+And because when we talk about gas emissions we are not only talking about carbon dioxide, we have to sum the emissions of all greenhouse gases. However, not all gases have the same impact on the environment. For example, $1\text{kg}$ of CH<sub>4</sub> is estimated to be 21 times more harmful to the environment than $1\text{kg}$ of CO<sub>2</sub>.
 
 Hence, we used a weight function that combines all gas emissions into their carbon dioxide equivalent. It relies on the estimation of the impact of greenhouse gases on global warming over a period of 100 years when compared to carbon dioxide. This is a metric called *100-year global warming potential* and abbreviated as **100-GWP**. The table below shows the 100-GWP of the most common greenhouse gases.
 
