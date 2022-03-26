@@ -21,6 +21,7 @@ title: Publications
       {%- if publication.publisher %}{{publication.publisher}}.{% endif %}
       {%- if publication.award %}🏆 ***{{publication.award}}***.{% endif %}
       {%- if publication.preprint %} [Preprint]({{publication.preprint}}).{% endif %}
+      {%- if publication.arxiv %} [Arxiv]({{publication.arxiv}}).{% endif %}
       {%- if publication.full-text %} [Full-text]({{publication.full-text}}).{% endif %}
       <!-- {%- if publication.bibtex %} <a class="clipboard" data-clipboard-text="{{publication.bibtex}}">Copy bibtex</a>.{% endif %} -->
       {%- if publication.slides %}
