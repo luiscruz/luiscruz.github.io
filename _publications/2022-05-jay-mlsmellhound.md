@@ -2,8 +2,8 @@
 layout: publication
 key: kannan2022mlsmellhound
 author: Jai Kannan, Scott Barnett, Luís Cruz, Anj Simmons, Akash Agarwal
-journal: ICSE'22 - NIER
-title: MLSmellHound: A Context-Aware Code Analysis Tool
+journal: "ICSE'22 - NIER"
+title: "MLSmellHound: A Context-Aware Code Analysis Tool"
 year: 2022
 arxiv: "https://arxiv.org/abs/2205.03790"
 abstract: |-
