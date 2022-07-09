@@ -1,4 +1,20 @@
-- msg: "My student Bart Ziengs presented his MSc thesis, with the title \"A Human-In-the-Loop System for Interpreting Image Recognition Models\". Final grade 8.0/10.0."
+- msg: "My student Niels Bauman defended his MSc thesis with the title \"Building a generalisable ML pipeline at ING\". Final grade 7.5/10.0."
+  date: 2022/07/07
+  link: "http://resolver.tudelft.nl/uuid:35c850eb-1d03-4185-a8c5-4469b2112327"
+- msg: "My student Haiyin Zhang defended her MSc thesis, with the title \"Automated Detection of Code Smells for Machine Learning Applications\". Final grade 9.0/10.0. 🏆 Distinguished with cum laude."
+  date: 2022/07/07
+  badge: Cum Laude distinction
+  link: "http://resolver.tudelft.nl/uuid:bd2b288e-08f9-4200-92c8-ee48bfff9408"
+- msg: "My student Nils Hullegien defended his MSc thesis, with the title \"Detecting anti-patterns in a MSA using distributed tracing\". Final grade 7.5/10.0."
+  date: 2022/07/05
+  link: "http://resolver.tudelft.nl/uuid:4586d8eb-ee5a-44f5-95be-a8ae36e22c62"
+- msg: "My student Niek van der Plas defended his MSc thesis, with the title \"Detecting PII in Git commits\". Final grade 8.0/10.0."
+  date: 2022/07/04
+  link: "http://resolver.tudelft.nl/uuid:fe195c17-ecf5-4811-a987-89f238a6802f"
+- msg: "My student Tim E. R. Yarally defended his MSc thesis, with the title \"Green AI\". Final grade 9.0/10.0."
+  date: 2022/07/01
+  link: "http://resolver.tudelft.nl/uuid:a3de8838-8e9a-4c70-8a04-a9f296be7c84"
+- msg: "My student Bart Ziengs defended his MSc thesis, with the title \"A Human-In-the-Loop System for Interpreting Image Recognition Models\". Final grade 8.0/10.0."
   date: 2022/06/1
   link: "http://resolver.tudelft.nl/uuid:6ebbdf05-e37d-45b9-b0ad-1844c9d7f298"
 - msg: "Session chair at MSR 2022"
