@@ -53,17 +53,17 @@ layout: default
       <div class="list-group">
         <a href="https://www.tudelft.nl/onderwijs/opleidingen/masters/cs/msc-computer-science/the-data-science-technology-track" target="_blank" class="list-group-item ">
           <span class="badge">Web</span>
-                <h4 class="list-group-item-heading"><ion-icon name="ios-school"></ion-icon>&nbsp;Master coordinator of Computer Science, track Data Science & Technology.</h4>
+                <h4 class="list-group-item-heading"><ion-icon name="school-outline"></ion-icon>&nbsp;Master coordinator of Computer Science, track Data Science & Technology.</h4>
                 <small class="list-group-item-text">Delft University of Technology.</small>
         </a>
         <a href="https://luiscruz.github.io/papers/cruz2019tools.pdf" target="_blank" class="list-group-item ">
           <span class="badge">Ph.D. Thesis</span>
-                <h4 class="list-group-item-heading"><ion-icon name="ios-leaf"></ion-icon>Tools and Techniques for Energy-Efficient Mobile Application Development</h4>
+                <h4 class="list-group-item-heading"><ion-icon name="leaf-outline"></ion-icon>Tools and Techniques for Energy-Efficient Mobile Application Development</h4>
                 <small class="list-group-item-text">Ph.D. thesis defended on July 2, 2019.</small>
         </a>
         <a href="https://tqrg.github.io/energy-patterns/" target="_blank" class="list-group-item ">
           <span class="badge">Web</span>
-                <h4 class="list-group-item-heading"><ion-icon name="ios-leaf"></ion-icon> Energy Patterns for Mobile Apps</h4>
+                <h4 class="list-group-item-heading"><ion-icon name="leaf-outline"></ion-icon> Energy Patterns for Mobile Apps</h4>
                 <small class="list-group-item-text">Online Catalog with 22 patterns to improve the energy efficiency of iOS and Android apps.</small>
         </a>
         <a href="cv/cvLuisCruz.pdf" target="_blank" class="list-group-item list-group-item-info">
@@ -90,6 +90,7 @@ layout: default
 <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
