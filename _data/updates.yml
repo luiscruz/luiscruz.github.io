@@ -1,3 +1,9 @@
+- msg: "My student Ching-Chi Chuang defended his MSc thesis with the title \"How to remove dependencies from large software projects with confidence\". Final grade 7.5/10.0."
+  date: 2022/08/31
+  link: "http://resolver.tudelft.nl/uuid:b2985d05-8663-4247-9678-ee8b5bba12ad"
+- msg: "Joined the podcast EnvironmentalVariables, episode 8, to talk about Green Software education."
+  date: 2022/07/21
+  link: "https://podcasts.bcast.fm/e/28xmrq9n-how-do-we-teach-green-software"
 - msg: "My student Niels Bauman defended his MSc thesis with the title \"Building a generalisable ML pipeline at ING\". Final grade 7.5/10.0."
   date: 2022/07/07
   link: "http://resolver.tudelft.nl/uuid:35c850eb-1d03-4185-a8c5-4469b2112327"
