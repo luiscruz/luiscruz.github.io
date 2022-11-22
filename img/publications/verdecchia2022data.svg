@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="460.8pt" height="345.6pt" viewBox="0 0 460.8 345.6">
+<g enable-background="new">
+<g>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 0 0 L 460.8 0 L 460.8 345.6 L 0 345.6 Z " fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 54.704 L 448.92 54.704 L 448.92 333.72 L 57.72125 333.72 Z " fill="#ffffff"/>
+<clipPath id="cp0">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 54.704 L 448.92 54.704 L 448.92 333.72 L 57.72125 333.72 Z "/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 74.021198 54.704 L 106.62109 54.704 L 106.62109 129.85982 L 74.021198 129.85982 Z " fill="#c71585"/>
+</g>
+<clipPath id="cp1">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 54.704 L 448.92 54.704 L 448.92 333.72 L 57.72125 333.72 Z "/>
+</clipPath>
+<g clip-path="url(#cp1)">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 139.221 54.704 L 171.82089 54.704 L 171.82089 70.80882 L 139.221 70.80882 Z " fill="#87ceeb"/>
+</g>
+<clipPath id="cp2">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 54.704 L 448.92 54.704 L 448.92 333.72 L 57.72125 333.72 Z "/>
+</clipPath>
+<g clip-path="url(#cp2)">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 204.42078 54.704 L 237.02068 54.704 L 237.02068 56.046068 L 204.42078 56.046068 Z " fill="#32cd32"/>
+</g>
+<clipPath id="cp3">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 54.704 L 448.92 54.704 L 448.92 333.72 L 57.72125 333.72 Z "/>
+</clipPath>
+<g clip-path="url(#cp3)">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 269.62059 54.704 L 302.22047 54.704 L 302.22047 320.43354 L 269.62059 320.43354 Z " fill="#ffa500"/>
+</g>
+<clipPath id="cp4">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 54.704 L 448.92 54.704 L 448.92 333.72 L 57.72125 333.72 Z "/>
+</clipPath>
+<g clip-path="url(#cp4)">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 334.82038 54.704 L 367.42027 54.704 L 367.42027 184.88463 L 334.82038 184.88463 Z " fill="#808000"/>
+</g>
+<clipPath id="cp5">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 54.704 L 448.92 54.704 L 448.92 333.72 L 57.72125 333.72 Z "/>
+</clipPath>
+<g clip-path="url(#cp5)">
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 400.02015 54.704 L 432.62007 54.704 L 432.62007 148.64879 L 400.02015 148.64879 Z " fill="#ff0000"/>
+</g>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 90.321147 54.704 L 90.321147 51.204 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 90.321147 54.704 L 90.321147 51.204 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 76.95396 306.25538)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 7.535001 15.477001">SVM</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 155.52094 54.704 L 155.52094 51.204 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 155.52094 54.704 L 155.52094 51.204 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 131.58344 306.25538)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 8.8220009 15.334001 21.494 25.014 30.657 34.177 40.799">Decision</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 142.70063 318.56788)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 7.337001 12.595001 19.107003">Tree</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 220.72074 54.704 L 220.72074 51.204 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 220.72074 54.704 L 220.72074 51.204 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 206.98636 306.25538)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 8.217 17.842001">KNN</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 285.92054 54.704 L 285.92054 51.204 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 285.92054 54.704 L 285.92054 51.204 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 262.7799 306.25538)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 8.533 15.089001 22.173 29.213002 35.835004">Random</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 268.17835 318.56788)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 7.04025 13.6622509 18.92025 25.432251 31.07525">Forest</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 351.1203 54.704 L 351.1203 51.204 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 351.1203 54.704 L 351.1203 51.204 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 324.65156 306.25538)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 7.942001 14.982001 21.538002 29.623002 36.245004 42.867006 48.510007">AdaBoost</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 416.3201 54.704 L 416.3201 51.204 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 416.3201 54.704 L 416.3201 51.204 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 393.1326 306.09913)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 8.085 14.641001 21.681002 28.721003 32.241 39.325">Bagging</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 389.98417 318.56788)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 8.415001 11.935001 18.491002 24.134 29.777 33.297 37.367 40.887 47.399003">Classifier</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 225.39875 333.2085)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 7.942001 11.462001 18.502 25.124 30.382 33.902 38.324 45.408">Algorithm</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 54.704 L 54.22125 54.704 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 54.704 L 54.22125 54.704 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 295.07569)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.00</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 88.25571 L 54.22125 88.25571 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 88.25571 L 54.22125 88.25571 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 261.524)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.25</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 121.80741 L 54.22125 121.80741 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 121.80741 L 54.22125 121.80741 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 227.97229)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.50</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 155.35912 L 54.22125 155.35912 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 155.35912 L 54.22125 155.35912 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 194.42058)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.75</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 188.91083 L 54.22125 188.91083 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 188.91083 L 54.22125 188.91083 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 160.86887)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">1.00</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 222.46254 L 54.22125 222.46254 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 222.46254 L 54.22125 222.46254 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 127.317157)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">1.25</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 256.01426 L 54.22125 256.01426 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 256.01426 L 54.22125 256.01426 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 93.76544)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">1.50</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 289.56596 L 54.22125 289.56596 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 289.56596 L 54.22125 289.56596 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 60.213747)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">1.75</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" d="M 57.72125 323.11766 L 54.22125 323.11766 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke="#000000" d="M 57.72125 323.11766 L 54.22125 323.11766 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 26.22125 26.662049)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">2.00</tspan></text>
+<text xml:space="preserve" transform="matrix(0 -1 1 0 19.78375 233.138)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 8.030001 15.114001 21.626002 26.884003 33.924005 40.139005 43.637006 52.052007 58.674009 65.75801 71.40101 78.48501 88.91301 95.95301 100.37501 103.895008 110.517009 117.601009 121.09901 125.38901 129.8 136.422 143.506 147.026 153.538 159.181">Energy Consumption (Joules)</tspan></text>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="square" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 57.72125 54.704 L 57.72125 333.72 "/>
+<path transform="matrix(1,0,0,-1,0,345.6)" stroke-width=".8" stroke-linecap="square" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M 57.72125 54.704 L 448.92 54.704 "/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 79.23718 214.39812)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.56</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 144.43697 273.44914)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.12</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 209.63677 288.21186)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.01</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 274.83656 23.824402)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">1.98</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 340.03636 159.3733)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.97</tspan></text>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 405.23616 195.60916)" font-size="11" font-family="DejaVuSerif"><tspan y="0" x="0 6.9960005 10.494 17.490002">0.70</tspan></text>
+</g>
+</g>
+</svg>

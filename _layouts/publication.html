@@ -31,28 +31,28 @@ layout: default
 
 <p><strong>Read me:</strong>
 {% if page.full-text %}
-  <a href="{{page.full-text}}">Full-text</a>.
+  <a replication-package href="{{page.full-text}}">Full-text</a>.
 {% endif %}
 {% if page.arxiv %}
-  <a href="{{page.arxiv}}">Arxiv</a>.
+  <a replication-package href="{{page.arxiv}}">Arxiv</a>.
 {% endif %}
 {% if page.preprint %}
-  <a href="{{page.preprint}}">Preprint</a>.
+  <a target="_blank" href="{{page.preprint}}">Preprint</a>.
 {% endif %}
 {% if page.doi %}
-  DOI:   <a href="https://doi.org/{{page.doi}}">{{page.doi}}</a>.
+  DOI:   <a target="_blank" href="https://doi.org/{{page.doi}}">{{page.doi}}</a>.
 {% endif %}
 {% if page.slides %}
-  <a href="{{page.slides}}">🪧Slides</a>.
+  <a target="_blank" href="{{page.slides}}">🪧Slides</a>.
 {% endif %}
 {% if page.video %}
-  <a href="{{page.video}}">🎥Video</a>.
+  <a target="_blank" href="{{page.video}}">🎥Video</a>.
 {% endif %}
 {% if page.replication-package %}
-  <a href="{{page.replication-package}}">👩‍💻Replication package</a>.
+  <a target="_blank" href="{{page.replication-package}}">👩‍💻Replication package</a>.
 {% endif %}
 {% if page.website %}
-  <a href="{{page.website}}">🌍Website</a>.
+  <a replication-package href="{{page.website}}">🌍Website</a>.
 {% endif %}
 </p>
 
