@@ -45,6 +45,14 @@ edit, .edit{
     color:green;
 }
 
+green, .green{
+    color:green;
+}
+
+red, .red{
+    color:red;
+}
+
 .footnotes{
     text-align: left;
 }
