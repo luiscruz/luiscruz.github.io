@@ -104,7 +104,7 @@ The first certification strategies that actually make it into practice will prob
 
 ## Sustainability Literacy is essential to any Software Engineer
 
-So now that we all care about environmental sustainability, it is time to invest on sustainability literacy. This is important because the adoption of measures that actual lead to environmental sustainability is not happening as fast as the race to advertise it.
+So now that we all care about environmental sustainability, it is time to invest on sustainability literacy. This is important because the adoption of measures that actually lead to environmental sustainability is not happening as fast as the race to advertise it.
 
 For example, when an organisation claims they run on renewable electricity, there are still carbon emissions from the *marginal power plant*[^marginal]. A marginal power plant is the power plant that is in place to accommodate for peaks in usage demand. Datacenters have huge power demands and cannot afford any power outage. Hence, backup plans are always in place to mitigate corner-case situations. Power suppliers resort to marginal power plants, which can dynamically produce more or less energy according to demand.
 Unfortunately, renewable energy is mostly independent of usage demand and marginal power plants have to resort to other sources to generate electricity (nuclear, coal, gas, etc.). On top of that, marginal power plants cannot be easily powered on and off: they have to operate continuously at least at their minimum functioning threshold. Hence, one cannot simply assume zero carbon emissions in datacenters powered by renewable energy.
