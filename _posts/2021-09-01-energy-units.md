@@ -14,7 +14,7 @@ These units are not necessarily representing the same concept. For example, powe
 There is no doubt that energy efficiency is a concern that is growing by the day amongst software engineers. Traditionally energy efficiency has been a requirement for software running in devices with limited energy capacity, for example mobile applications, or to cut down the electricity bill in in the massive datacentres across the globe.
 Thankfully, concerns about environmental sustainability are becoming a top priority in our society, and the tech sector is not an exception.
 
-Also, driven by personal interests, tech workers are becoming more interested in being part of organisations that do care about the environmental sustainability of their operations. Yet, literature around software energy efficiency can be difficult to grasp. Personally, I always find it difficult to compare all the different energy metrics across different articles. No wonder, to make things easier, many reports have been using measures that resemble day-to-day concepts. For example, [one bitcoin transaction is equivalent to more than one million VISA transactions](https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/) (as of 2021). This is easier to grasp than saying that one bitcoin transaction requires more than six giga-joules (6,000,000,000). (well, six giga-joules sound massive anyway 🏭)
+Also, driven by personal interests, tech workers are becoming more interested in being part of organisations that do care about the environmental sustainability of their operations. Yet, literature around software energy efficiency can be difficult to grasp. Personally, I always find it difficult to compare all the different energy metrics across different articles. No wonder, to make things easier, many reports have been using measures that resemble day-to-day concepts. For example, [one bitcoin transaction is equivalent to more than one million VISA transactions](https://www.statista.com/statistics/881541/bitcoin-energy-consumption-transaction-comparison-visa/) (as of 2021). This is easier to grasp than saying that one bitcoin transaction requires more than six giga-joules (6,000,000,000J). Well, six giga-joules sound massive anyway, but you get the point 🏭.
 
 In this article, we will go on a tour around energy consumption metrics.
 
@@ -25,17 +25,17 @@ In this article, we will go on a tour around energy consumption metrics.
 ## Energy
 
 Energy is often referred to as work: for example, in electricity, energy is the work required to move charged particles.
-The International System of Units (SI) defines *joule* (J) as the standard unit of energy. It is the most common unit of energy used in scientific literature. 
+The International System of Units (SI) defines *joule* (J) as the standard unit of energy. It is also the most common unit of energy used in scientific literature. 
 
-Another common unit is kilowatt-hour (kWh). It is commonly used, for example, to report household electricity consumption. Kilowatt-hour represents the exact same parameter as *joule* but in a much higher order of magnitude. Kilowatt-hours can be easily converted to/from joules:
+Another common unit is kilowatt-hour (kWh). For example, it is used to report household electricity consumption. Kilowatt-hour represents the exact same parameter as *joule* but in a much higher order of magnitude. Kilowatt-hours can be easily converted to/from joules as follows:
 
 $$ 1\text{kWh} = 3,600,000\text{J}$$
 
-For example, saying that 1 bitcoin transaction requires more than 6 giga-joules (6x10) is equivalent to saying that it requires more than 1667kWh.
+For example, saying that 1 bitcoin transaction requires more than 6 giga-joules (6x10) is the equivalent of saying that it requires more than 1667kWh.
 
 ## Power
 
-When measuring energy consumption, it is also common to talk about power consumption. Briefly, power represents the amount of work being done by unit of time. For example, using standard SI units, 1 unit of power is equivalent to 1 joule per second. Instead of joules per second, we call it watt (W), in memory of the Scottish inventor James Watt.
+When measuring energy consumption, it is also common to talk about power consumption. Briefly, power represents the amount of work being done by unit of time. For example, using standard SI units, 1 unit of power is equivalent to 1 joule per second. Instead of joules per second, we call it watts (W) in memory of the Scottish inventor James Watt.
 
 Not surprisingly, some energy profiler tools report power consumption instead of energy consumption.
 In a previous post, I have covered state-of-the-art [tools to measure energy consumption from your computer](/2021/07/20/measuring-energy.html) — and this was the case of `Powerstat` and `PowerTOP`.
