@@ -2,7 +2,7 @@
 layout: publication
 key: verdecchia2023systematic
 author: Roberto Verdecchia, June Sallou, Luís Cruz
-journal: WIREs Data Mining and Knowledge Discovery
+journal: Submitted to WIREs Data Mining and Knowledge Discovery
 title: "A Systematic Review of Green AI"
 year: 2022
 preprint: https://arxiv.org/abs/2301.11047.pdf
