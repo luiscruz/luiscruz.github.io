@@ -37,7 +37,7 @@ layout: default
   		  <p>
           
 	      <a class="btn btn-primary btn-xs" target='_blank' role="button" href="https://se.ewi.tudelft.nl">
-			  Assistant Professor at <strong>TU Delft</strong> | Building 28, Office 1.W.740
+			  Assistant Professor at <strong>TU Delft</strong> | Building 28, Office 1.W.720
 		  </a>
 	      <a class="btn btn-primary btn-xs" target='_blank' role="button" href="https://se.ewi.tudelft.nl/ai4fintech/index.html">
 			  Scientific Manager of the <strong>AI for Fintech Research</strong>
