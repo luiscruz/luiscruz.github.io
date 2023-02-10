@@ -10,12 +10,14 @@ summary: "Are you studying the energy consumption of software technologies? Rega
 A simple mistake in the methodology might completely void your results and increase the chances of drawing wrong conclusions. We will see how to mitigate any potential bias or errors in the energy measurement setup – this is quintessential if you are planning to publish your results. If you have a general interest in the energy efficiency of software but are not exactly doing research, you may also find this post interesting. Come along and let me know your thoughts."
 redirect_from:
   - /2021/08/20/scientific-guide.html
+doi: 10.6084/m9.figshare.22067846.v1
 bibtex: |-
   @misc{cruz2021green,
     title = {Green Software Engineering Done Right: a Scientific Guide to Set Up Energy Efficiency Experiments},
     author = {Lu\'{i}s Cruz},
     year = {2021},
     howpublished={\url{http://luiscruz.github.io/2021/10/10/scientific-guide.html}},
+    doi = {10.6084/m9.figshare.22067846.v1},
     note = {Blog post.}
   }
 ---
