@@ -157,7 +157,7 @@ $$CO_2eq = \sum_{g\in GHG}({GWP_{g}\cdot{} m_{g}}),$$
 
 where $GHG$ is the set of all greenhouse gases, $GWP_g$ is the 100-GWP of a given gas $g$, and $m_g$ is the total mass of gas $g$ that was emitted.
 
-As an example, imagine that to run our software system our electricity provider has to $1000\text{kg}$ of $CO_2$, $20\text{kg}$ of $CH_4$, $5\text{kg}$ of $N_2O$, and $0\text{kg}$ of the remaining greenhouse gases. Our $CO_2eq$ would be computed as follows:
+As an example, imagine that to run our software system our electricity provider emits $1000\text{kg}$ of $CO_2$, $20\text{kg}$ of $CH_4$, $5\text{kg}$ of $N_2O$, and $0\text{kg}$ of the remaining greenhouse gases. Our $CO_2eq$ would be computed as follows:
 
 $$CO_2eq = GWP_{CO_2}\cdot{} m_{CO_2} + GWP_{CH_4}\cdot{} m_{CH_4} + GWP_{N_2O}\cdot{} m_{N_2O}\\
   = 1 \times 1000 + 21 \times 20 + 310 \times 5 \\
