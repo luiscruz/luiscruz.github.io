@@ -25,7 +25,7 @@ title: Publications
       {%- if publication.full-text %} [Full-text]({{publication.full-text}}).{% endif %}
       <!-- {%- if publication.bibtex %} <a class="clipboard" data-clipboard-text="{{publication.bibtex}}">Copy bibtex</a>.{% endif %} -->
       {%- if publication.slides %}
-      [Slides]({{publication.slides}}.)
+      [Slides]({{publication.slides}}).
     {% endif -%}
   {%- if publication.video %}
     [<ion-icon name="logo-youtube"></ion-icon>]({{publication.video}})
