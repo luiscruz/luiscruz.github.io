@@ -17,4 +17,5 @@ bibtex: |-
   title={Uncovering Energy-Efficient Practices in Deep Learning Training: Preliminary Steps Towards Green AI}, 
   year={2023}}
 image: "publications/yarally2023deeplearning.png"
+award: ACM SIGSOFT Distinguished Paper Award
 ---
