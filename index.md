@@ -32,7 +32,7 @@ layout: default
 
   	      <p><a role="button" href="mailto:L.Cruz@tudelft.nl"> E-mail: L.Cruz@tudelft.nl</a>
             <br/>
-          <small><small>Research Interests: <strong>AI Engineering</strong>; <strong>Sustainable Software Engineering</strong></small></small>
+          <small><small>Research Interests: <strong>Green AI</strong>; <strong>Green Software</strong>; <strong>AI Engineering</strong></small></small>
         </p>
   		  <p>
           
