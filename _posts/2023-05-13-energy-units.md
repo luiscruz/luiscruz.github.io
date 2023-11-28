@@ -38,7 +38,7 @@ Another common unit is kilowatt-hour (kWh). For example, it is used to report ho
 
 $$ 1\text{kWh} = 3,600,000\text{J}$$
 
-For example, saying that 1 bitcoin transaction requires more than 6 giga-joules ($6 \cdot 10^9 \textnormal{J}$) is similar to saying that it requires more than 1667kWh (approximately).
+For example, saying that 1 bitcoin transaction requires more than 6 giga-joules ($6 \cdot 10^9 \text{J}$) is similar to saying that it requires more than 1667kWh (approximately).
 
 ## Power
 
