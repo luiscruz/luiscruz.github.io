@@ -5,7 +5,7 @@ layout: default
 <div id='jumbotron' class="jumbotron">
 		<div class='container'>
 	      <div class="media">
-	      <img class="media-object pull-left" width="120px" src="img/profile2.jpg"/>
+	      <img class="media-object pull-left" width="120px" src="img/profile.png"/>
 	      <div class="media-body"><h1 class="">Hello, I'm Luís :)</h1>
 			  <a class="btn btn-default btn-xs" target='_blank' role="button" href="https://www.linkedin.com/in/luismirandacruz">
 				  <ion-icon name="logo-linkedin"></ion-icon> LinkedIn

@@ -9,6 +9,15 @@ equation: False
 draft: False
 invisible: False
 summary: Many software organisations are racing to beat their competitors in terms of sustainability. It is a flag that no one wants to stand behind. However, the whole discipline is till very new and doing it right is far from easy. Despite being a honourable cause, the pressure to beat the market and meet the expectations of their users might lead to imprecisions. Intentionally or not, we want to avoid such imprecisions to give the podium to the wrong players. In this article, we talk about the five dimensions of sustainability, green washing, what it takes to certify software sustainability, and why education is quintessential to make the difference.
+bibtex: |-
+  @misc{cruz2022five,
+    title = {The Five Dimensions of Sustainable Software Engineering and How Education Can Help!},
+    author = {Lu\'{i}s Cruz},
+    year = {2022},
+    howpublished={\url{http://luiscruz.github.io/2022/01/01/sustainable-se-intro.html}},
+    doi = {10.6084/m9.figshare.25036772},
+    note = {Blog post.}
+  }
 ---
 
 A lot has been recently written about Sustainable Software Engineering.
