@@ -73,6 +73,11 @@ color:#50715E;
     font-weight: 500; 
 }
 
+#profile-picture{
+    width: 220px;
+    margin-right: 20px;
+}
+
 #post{
 /*    background-color: cyan;*/
 }

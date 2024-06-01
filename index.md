@@ -5,7 +5,7 @@ layout: default
 <div id='jumbotron' class="jumbotron">
 		<div class='container'>
 	      <div class="media">
-	      <img class="media-object pull-left" width="220px" src="img/profile.png"/>
+	      <img id="profile-picture" class="media-object pull-left"  src="img/profile.png"/>
 	      <div class="media-body"><h1 class="">Luís Cruz</h1>
 <span id="social-links">
 			  <a class="" target='_blank' role="button" href="https://www.linkedin.com/in/luismirandacruz">
