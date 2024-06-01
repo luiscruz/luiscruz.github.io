@@ -15,7 +15,3 @@ title: Blog
   {% endunless %}
 {% endfor %}
 
----
-
-
-2021 \| [Luís Cruz](/)

@@ -16,6 +16,7 @@ You can check some of my publications in [this page](./publications) or in my ac
 
 ## Media coverage
 
+List of news articles covering my research.
 
 Público
 
@@ -305,3 +306,5 @@ Academic Excellence Award
 [ING]: https://www.ing.com/
 [AI4Fintech]: https://se.ewi.tudelft.nl/ai4fintech/
 [Simula Research Lab]: https://www.simula.no
+
+
