@@ -5,36 +5,28 @@ layout: default
 <div id='jumbotron' class="jumbotron">
 		<div class='container'>
 	      <div class="media">
-	      <img class="media-object pull-left" width="200px" src="img/profile.png"/>
+	      <img class="media-object pull-left" width="220px" src="img/profile.png"/>
 	      <div class="media-body"><h1 class="">Luís Cruz</h1>
-
+<span id="social-links">
 			  <a class="" target='_blank' role="button" href="https://www.linkedin.com/in/luismirandacruz">
-				   LinkedIn
-			  </a> |
+				   LinkedIn</a> |
 		      <a class="" target='_blank' role="button" href="http://github.com/luiscruz">
-				   Github
-			  </a> |
+				   Github</a> |
 		      <a class="" target='_blank' role="button" href="https://scholar.google.com/citations?user=O13oaH0AAAAJ&hl=en">
-				   Google Scholar
-			  </a> |
+				   Google Scholar</a> |
 		      <a class="" target='_blank' role="button" href="https://twitter.com/luismcruz">
-                   Twitter
-              </a> |
+                   Twitter</a> |
 		      <a class="" target='_blank' rel="noopener noreferrer" role="button" href="https://orcid.org/0000-0002-1615-355X">
                  Orcid
-              </a>
+              </a></span>
+        <br/>
+        <br/>
+        <small>
+          <a role="button" href="mailto:L.Cruz@tudelft.nl"> <strong>E-mail:</strong> L.Cruz@tudelft.nl</a>
+        <br/><strong>Interests:</strong> Green AI, Green Software, AI Engineering
+        </small>
 	        </div>
-  	      <p><a role="button" href="mailto:L.Cruz@tudelft.nl"> E-mail: L.Cruz@tudelft.nl</a>
-        </p><br/>
-<small>Green AI, Green Software, AI Engineering</small>
 	      </div>
-  		  <p>
-          
-	      <a class="btn btn-primary btn-xs" target='_blank' role="button" href="https://se.ewi.tudelft.nl">
-			  Assistant Professor at <strong>TU Delft</strong> | Building 28, Office 1.W.720
-		  </a>
-			</p>
-
 		</div>
     </div>
 
@@ -68,7 +60,7 @@ layout: default
                 <h4 class="list-group-item-heading"><ion-icon name="leaf-outline"></ion-icon> Energy Patterns for Mobile Apps</h4>
                 <small class="list-group-item-text">Online Catalog with 22 patterns to improve the energy efficiency of iOS and Android apps.</small>
         </a>
-        <a href="cv/cvLuisCruz.pdf" target="_blank" class="list-group-item list-group-item-info">
+        <a href="cv/cvLuisCruz.pdf" target="_blank" class="list-group-item list-group-item-success">
           <span class="badge">PDF</span>
                 <h4 class="list-group-item-heading">Download Curriculum Vitae</h4>
                 <small class="list-group-item-text">Updated on June, 2024.</small>

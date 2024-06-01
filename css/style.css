@@ -65,7 +65,12 @@ a.footnote:after {
 }
 
 a {
-color:#7AAD8D;
+color:#50715E;
+}
+
+#social-links a{
+    text-decoration: underline;
+    font-weight: 500; 
 }
 
 #post{
