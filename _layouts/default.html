@@ -55,22 +55,27 @@
       <meta property="og:image" content="{{page.image | absolute_url}}" />
       <meta name="twitter:image" content="{{page.image | absolute_url}}" />
     {% else %}
-      <meta property="og:image" content="https://luiscruz.github.io/img/profile2.jpg" />
-      <meta name="twitter:image" content="https://luiscruz.github.io/img/profile2.jpg" />
+      <meta property="og:image" content="https://luiscruz.github.io/img/profile.png" />
+      <meta name="twitter:image" content="https://luiscruz.github.io/img/profile.png" />
     {% endif %}
   {% else %}
     <!-- OG data for homepage -->
-    <meta property="og:image" content="https://luiscruz.github.io/img/profile2.jpg" />
+    <meta property="og:image" content="https://luiscruz.github.io/img/profile.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{{site.title}}" />
-    <meta name="twitter:image" content="https://luiscruz.github.io/img/profile2.jpg" />
+    <meta name="twitter:image" content="https://luiscruz.github.io/img/profile.png" />
 
   {% endif %}
   <!-- -->
+  <!--
+    For Safari color
+  -->
+  <meta name="theme-color" content="#7AAD8D">
   
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/style.css" type="text/css">
+  
 </head>
   <body>
      {{ content }}
