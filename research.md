@@ -148,7 +148,7 @@ Thijs Nulle
 :   E-Compare: Energy Regression Testing for Software Applications.
     June 2024
 
-Natália Struharová
+[Natália Struharová]:
 
 :   Approximated Computing in Continuous Integration Pipelines. May 2024
 
@@ -161,7 +161,7 @@ Natália Struharová
 :   Measuring up to stability: Guidelines towards accurate energy
     consumption measurement results of Rust benchmarks. With [Simula Research Lab]. May 2024
 
-Dyon van der Ende
+[Dyon van der Ende]
 
 :   Catalog of Energy Patterns for Websites. April, 2024
 
@@ -296,6 +296,8 @@ Academic Excellence Award
 [Rens Hijdra]: https://www.linkedin.com/in/rens-hijdra
 [Erik Blokland]: https://www.linkedin.com/in/erik-blokland-b323891b2
 [Wander Siemers]: https://www.linkedin.com/in/wander-siemers
+[Natália Struharová]: https://www.linkedin.com/in/natália-struharová-7b4a63165/
+[Dyon van der Ende]: https://www.linkedin.com/in/dyon-van-der-ende/
 [Mihai Anton]: https://www.antonmihai.com 
 [Sara Regali]: https://www.linkedin.com/in/sararegali
 [Haiyin Zhang]: https://www.linkedin.com/in/haiyin-zhang-808580135
