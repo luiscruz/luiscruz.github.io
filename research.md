@@ -141,12 +141,12 @@ Thijs Nulle
 
 [Wander Siemers]
 
-:   Energy testing in Mobile Software. *Ongoing.*
+:   Energy testing in Mobile Software. June 2024
 
 [Koen Hagen]
 
 :   E-Compare: Energy Regression Testing for Software Applications.
-    *Ongoing.*
+    June 2024
 
 Natália Struharová
 
