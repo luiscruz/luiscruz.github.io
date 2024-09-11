@@ -81,3 +81,44 @@ color:#50715E;
 #post{
 /*    background-color: cyan;*/
 }
+
+.mesa{
+  position: relative
+  border: 1px;
+  margin: 20px;
+  background-color: #FBF3E8;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+    flex-direction: column; /* Stack elements vertically */
+/*    justify-content: space-between;*/
+  height: 600px;
+  
+}
+
+.mesa .header{
+
+  font-family: 'League Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+  padding-top:80px;
+  text-align: center;
+  font-size: 36pt;
+}
+
+.mesa .persons{
+  font-family: "Baskerville";
+  font-size: 11pt;
+  padding-left: 20px;
+  padding-top: 20px;
+     flex: 1;
+/*     background-color:lightyellow;*/
+}
+
+
+.mesa .footer{
+   text-align: center;
+   margin-bottom: 40px;
+
+}
