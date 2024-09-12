@@ -20,7 +20,8 @@
       {% endfor %}
       </div>
       <div class="footer">
-        <img width="40px" src="img/orn.png"/>
+        <!-- <img width="60px" src=""/> -->
+        <object type="image/svg+xml" data="img/orn5.svg" class="svg-object"></object>
       </div>
     </div>
     <br/>

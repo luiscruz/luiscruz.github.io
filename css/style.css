@@ -101,7 +101,8 @@ color:#50715E;
   font-family: 'League Script', cursive;
   font-weight: 400;
   font-style: normal;
-  
+
+  color: #5B3D23;
   padding-top:80px;
   text-align: center;
   font-size: 36pt;
@@ -110,7 +111,7 @@ color:#50715E;
 .mesa .persons{
   font-family: "Baskerville";
   font-size: 11pt;
-  padding-left: 20px;
+  padding-left: 70px;
   padding-top: 20px;
      flex: 1;
 /*     background-color:lightyellow;*/
@@ -120,5 +121,11 @@ color:#50715E;
 .mesa .footer{
    text-align: center;
    margin-bottom: 40px;
+   color: #5B3D23;
 
+}
+
+.mesa .svg-object{
+  --svg-fill-color: blue !important; 
+  width: 160px;
 }
