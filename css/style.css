@@ -82,11 +82,24 @@ color:#50715E;
 /*    background-color: cyan;*/
 }
 
+@media print {
+  @page {
+    size: A4 landscape; /* Define o tamanho como A4 e a orientação como paisagem */
+    margin: 0.3in;
+  }
+}
+
+
+.mesas{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .mesa{
   position: relative
   border: 1px;
-  margin: 20px;
-  background-color: #FBF3E8;
+  margin: 5px;
+  background-color: #FBF3E8 !important;;
   padding: 20px;
   width: 300px;
   display: flex;
@@ -96,13 +109,15 @@ color:#50715E;
   
 }
 
+
+
 .mesa .header{
 
   font-family: 'League Script', cursive;
   font-weight: 400;
   font-style: normal;
 
-  color: #5B3D23;
+  color: #5B3D23 !important;
   padding-top:80px;
   text-align: center;
   font-size: 36pt;

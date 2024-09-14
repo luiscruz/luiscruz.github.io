@@ -2,12 +2,12 @@
 
 {% assign mesas = site.data.mesas %}
 {% assign header = mesas[0] %}
+{% assign counter = 0 %} 
 
 
 <div class="mesas">
   {% for name in header %}
   {% assign mesa_nome = name[0] %}
-  
     <div class="mesa">
       <div class="header">
         {{mesa_nome}}
@@ -15,6 +15,12 @@
       <div class="persons">
       {% for row in mesas %}
       <div class="person">
+      {%if row[mesa_nome] == "António" %}
+      <div class="person"><em>Pais da Noiva:</em></div>
+      {%endif%}
+      {%if row[mesa_nome] == "José Cruz" %}
+      <div class="person"><em>Pais do Noivo:</em></div>
+      {%endif%}
       {{ row[mesa_nome] }}
       </div>
       {% endfor %}
@@ -25,6 +31,13 @@
       </div>
     </div>
     <br/>
+    {% assign counter = counter | plus: 1 %} <!-- Incrementa o contador a cada iteração -->
+     {% if counter == 3 %}
+        <div class="page-break"></div> <!-- Adiciona quebra de página após cada 3 itens -->
+</div>
+<div class="mesas">
+      {% assign counter = 0 %} 
+    {% endif %}
   {% endfor %}
 </div>
 
