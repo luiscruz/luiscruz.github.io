@@ -18,6 +18,8 @@ You can check some of my publications in [this page](./publications) or in my ac
 
 List of news articles covering my research.
 
+
+
 Público
 
 :   ['Factura de electricidade para treinar e usar sistemas de IA é uma
@@ -48,6 +50,22 @@ SAPOTek
     sustentabilidade é
     obrigatória'](https://greensavers.sapo.pt/entrevista-e-preciso-evangelizar-sobre-software-verde-como-ia/).
     2024
+
+Binnenlands Bestuur
+
+[‘Overheid moet energieverbruik van AI beter rapporteren’](https://www.binnenlandsbestuur.nl/digitaal/receptenboek-om-ai-toepassingen-groener-te-maken). 2024
+
+EMERCE
+
+: [Onderzoek: Overheid vergeet ICT bij klimaatdoelen](https://www.emerce.nl/wire/onderzoek-overheid-vergeet-ict-klimaatdoelen)
+
+AG Connect
+
+: [Onderzoek: Overheid vergeet ICT bij klimaatdoelen](https://www.agconnect.nl/tech-en-toekomst/duurzaamheid/onderzoek-overheid-vergeet-ict-bij-klimaatdoelen). 2024
+
+Business Insider Nederland
+
+: [Overheid vergeet ICT bij klimaatdoelen: hoger dataverbruik door computers die AI inzetten en bewaarverplichtingen](https://www.businessinsider.nl/overheid-vergeet-ict-bij-klimaatdoelen-hoger-dataverbruik-door-computers-die-ai-inzetten-en-bewaarverplichtingen/). 2024
 
 Vrij Nederland
 
