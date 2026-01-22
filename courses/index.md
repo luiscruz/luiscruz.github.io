@@ -1,6 +1,7 @@
 ---
 layout: default_md
 title: Teaching
+permalink: /courses
 ---
 
 #### 2021–2024

@@ -1,6 +1,7 @@
 ---
 layout: default_md
 title: Publications
+permalink: /publications
 ---
 
 <div id="bibtex_display">

@@ -144,3 +144,12 @@ color:#50715E;
   --svg-fill-color: blue !important; 
   width: 160px;
 }
+
+.profile-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.menu .active {
+  font-weight: 400;
+}
