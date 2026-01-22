@@ -1,6 +1,7 @@
 ---
 title: "Research"
 layout: default_md
+permalink: /research
 ---
 
 My primary research focuses on Green AI and Green Software. I work on establishing techniques, guidelines, and practices to ensure the development of energy-efficient AI systems is straightforward and accessible, without requiring specialized expertise.
@@ -8,7 +9,7 @@ My primary research focuses on Green AI and Green Software. I work on establishi
 
 ## Publications
 
-You can check some of my publications in [this page](./publications) or in my academic profiles: [Google Scholar], [dblp], [orcid].
+You can check some of my publications in [**this page**](./publications) or in my academic profiles: [Google Scholar], [dblp], [orcid].
 
 [Google Scholar]: https://scholar.google.com/citations?user=O13oaH0AAAAJ&hl=en
 [Orcid]: https://orcid.org/0000-0002-1615-355X 
@@ -18,7 +19,13 @@ You can check some of my publications in [this page](./publications) or in my ac
 
 List of news articles covering my research.
 
+NEMO KennisLink
 
+:   ['De footprint van AI laat zich niet vangen'](https://www.nemokennislink.nl/publicaties/de-footprint-van-ai-laat-zich-niet-vangen/). 2026
+
+Interview with José da Silva
+
+: [Sustainable Software Engineering: A talk with Luís Cruz](https://www.youtube.com/watch?si=JFcrNyxSUYwV78TZ&v=u-WgVPCzYVY&feature=youtu.be). 2026
 
 Público
 
@@ -57,7 +64,7 @@ Binnenlands Bestuur
 
 EMERCE
 
-: [Onderzoek: Overheid vergeet ICT bij klimaatdoelen](https://www.emerce.nl/wire/onderzoek-overheid-vergeet-ict-klimaatdoelen)
+: [Onderzoek: Overheid vergeet ICT bij klimaatdoelen](https://www.emerce.nl/wire/onderzoek-overheid-vergeet-ict-klimaatdoelen). 2024
 
 AG Connect
 
@@ -127,39 +134,41 @@ I have/had the privilege of working with wonderful students:
 [Arumoy Shome]
 
 :   (TU Delft) Engineering Artificial Intelligence in the Wild.
-    *Ongoing. Graduating in 2025.*
-
-[Lorena Poenaru-Olaru]
-
-:   (TU Delft) Concept drift adaption for AIOps. *Ongoing. Graduating
-    in 2025.*
+    *Ongoing. Graduating in 2026.*
 
 [Eileen Kapel]
 
 :   (TU Delft) Incident Management in Large Fintech Organisations.
     *Ongoing.*
 
-[Santiago del Rey]
+[Enrique Barba Roque]
 
-:   (UPC Barcelona Tech) Green AI. *Ongoing. Graduating in 2027.*
+:   (TU Delft)  Building and monitorint green AI systems.
+    *Ongoing.*
+
+[Lorena Poenaru-Olaru]
+
+:   (TU Delft) Monitoring and Maintaining Machine Learning Models Against Concept Drift in the Context of AIOps Systems. [Thesis](https://repository.tudelft.nl/record/uuid:f660a994-af79-475c-853b-7edc9d1f8b77) *Graduated in 2026.*
+
+
 
 #### MSc students
 
-Otto Kaaij
+[Otto Kaaij]
 
-:   Greening Space Engineering Software. *Ongoing.*
+:  SMURF: a Methodology for Energy Profiling Software Systems. Co-supervised with [José da Silva], [Solenix]. February 2025
 
-Thijs Nulle
+[Thijs Nulle]
 
-:   Lowering Carbon Emissions within AI Models. *Ongoing.*
+:   Lowering Carbon Emissions of Code Generation in Large Language Models with Line-level Completions. April 2025
 
 [Enrique Barba Roque]
 
-:   Investigating energy hotspots with Docker and Tracing. *Ongoing.*
+:   Researching energy inefficiences in shared libraries with Tracing. June 2024
 
 [Wander Siemers]
 
-:   Energy testing in Mobile Software. June 2024
+:  Characterizing and Finding Battery Saver Bugs in Android Applications. June 2024
 
 [Koen Hagen]
 
@@ -273,6 +282,10 @@ Pedro Gomes
 
 ## Awards
 
+[Best Paper Award](https://conf.researchr.org/details/icse-2025/icse-2025-research-track/97/Unveiling-the-Energy-Vampires-A-Methodology-for-Debugging-Software-Energy-Consumptio)
+
+:   ICSE, 2025
+
 Best Paper Award
 
 :   CAIN, 2023.
@@ -326,5 +339,8 @@ Academic Excellence Award
 [ING]: https://www.ing.com/
 [AI4Fintech]: https://se.ewi.tudelft.nl/ai4fintech/
 [Simula Research Lab]: https://www.simula.no
-
+[Otto Kaaij]: https://ottokaaij.nl
+[Thijs Nulle]: https://www.linkedin.com/in/thijs-nulle-3190171a3/
+[José da Silva]: https://www.linkedin.com/in/jfmdasilva/
+[Solenix]: https://www.linkedin.com/company/solenix
 
