@@ -27,31 +27,21 @@
   <meta name="twitter:description" content="{% if page.summary or page.abstract %}{{ page.summary | append: page.abstract | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   
   {% if page.title %}
-    <!-- Article specific OG data -->
-    <!-- The OG:Type dictates a number of other tags on posts. -->
-    <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="{{page.date}}" />
-
-    <!-- page.modified isn't a natural Jekyll property, but it can be added. -->
-    {% if page.modified %}
-      <meta property="article:modified_time" content="{{page.modified}}" />
+    {% if page.layout == "post" %}
+      <meta property="og:type" content="article" />
+      <meta property="article:published_time" content="{{page.date}}" />
+      {% if page.modified %}
+        <meta property="article:modified_time" content="{{page.modified}}" />
+      {% endif %}
+      <meta property="article:author" content="https://luiscruz.github.io" />
+      {% for tag in page.categories %}
+        <meta property="article:tag" content="{{tag}}" />
+      {% endfor %}
+    {% else %}
+      <meta property="og:type" content="website" />
     {% endif %}
-
-    <!-- Here my author and publisher tags are the same (yay self-publishing) -->
-    <meta property="article:author" content="http://facebook.com/luismirandacruz" />
-    <!-- But if your site has its own page, this is where to put it. -->
-    <!-- <meta property="article:publisher" content="https://www.facebook.com/aramzs" /> -->
-
-    <!-- I use the page.categories property for OG tags. -->
-    {% for tag in page.categories %}
-      <meta property="article:tag" content="{{tag}}" />
-    {% endfor %}
-
-    <!-- I prefer the summary_large_image Twitter card for posts. -->
     <meta name="twitter:card" content="summary_large_image" />
-    <!-- You, you're the creator. -->
     <meta name="twitter:creator" content="@luismcruz" />
-    <!-- This property is for the article title, not site title. -->
     <meta name="twitter:title" content="{{page.title}}" />
     {% if page.image %}
       <meta property="og:image" content="{{page.image | absolute_url}}" />
@@ -67,7 +57,6 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{{site.title}}" />
     <meta name="twitter:image" content="https://luiscruz.github.io/img/profile.png" />
-
   {% endif %}
   <!-- -->
   <!--
