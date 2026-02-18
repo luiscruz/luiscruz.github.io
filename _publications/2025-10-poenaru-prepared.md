@@ -2,7 +2,7 @@
 layout: publication
 key: poenaru2025prepared
 author: Lorena Poenaru-Olaru, Wouter van 't Hof, Adrian Stańdo, Arkadiusz P. Trawiński, Eileen Kapel, Jan S. Rellermeyer, Luís Cruz, Arie van Deursen
-booktitle: IEEE 36th International Symposium on Software Reliability Engineering (ISSRE)
+journal: IEEE 36th International Symposium on Software Reliability Engineering (ISSRE)
 title: "Prepared for the Unknown: Adapting AIOps Capacity Forecasting Models to Data Changes"
 year: 2025
 pages: 394–405
