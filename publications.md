@@ -5,7 +5,11 @@ permalink: /publications
 ---
 
 <div id="bibtex_display">
-  {%- for publication in site.publications reversed%}
+  {% assign grouped = site.publications | group_by: "year" | sort: "name" | reverse %}
+  {% for group in grouped %}
+  <h3>{{ group.name }}</h3>
+  {% assign year_pubs = group.items | reverse %}
+  {%- for publication in year_pubs %}
   <p markdown="span">
       {{publication.author}} ({{publication.year}}).
       {%- unless publication.disable-page %}
@@ -32,7 +36,8 @@ permalink: /publications
     [<ion-icon name="logo-youtube"></ion-icon>]({{publication.video}})
   {% endif -%}
 </p>
-{% endfor -%}
+  {% endfor %}
+  {% endfor %}
 </div>
 
 
