@@ -10,6 +10,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- metdata -->
   <meta name="author" content="Luís Cruz" />
+  <meta name="description" content="{% if page.summary or page.abstract %}{{ page.summary | append: page.abstract | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
   <meta property="og:title"
       content="{% if page.title %}
         {{ page.title | strip_html | strip_newlines | truncate: 160 }}
@@ -75,7 +77,30 @@
   
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/style.css" type="text/css">
-  
+
+  {% if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Luís Cruz",
+    "url": "https://luiscruz.github.io",
+    "jobTitle": "Assistant Professor",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Delft University of Technology",
+      "url": "https://www.tudelft.nl"
+    },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=O13oaH0AAAAJ&hl=en",
+      "https://github.com/luiscruz",
+      "https://orcid.org/0000-0002-1615-355X",
+      "https://www.linkedin.com/in/luismirandacruz"
+    ]
+  }
+  </script>
+  {% endif %}
+
 </head>
   <body>
      {{ content }}

@@ -59,6 +59,21 @@ layout: default
 
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": {{ page.title | jsonify }},
+  "author": {{ page.author | jsonify }},
+  "datePublished": "{{ page.year }}"
+  {% if page.abstract %}, "description": {{ page.abstract | jsonify }}{% endif %}
+  {% if page.journal %}, "isPartOf": {"@type": "Periodical", "name": {{ page.journal | jsonify }}}{% endif %}
+  {% if page.doi %}, "identifier": "https://doi.org/{{ page.doi }}"{% endif %}
+  {% if page.arxiv %}, "sameAs": {{ page.arxiv | jsonify }}{% endif %}
+}
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
 <script>
   var clipboard = new ClipboardJS('.clipboard');
