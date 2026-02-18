@@ -4,10 +4,10 @@ title: Teaching
 permalink: /courses
 ---
 
-#### 2021–2024
+#### 2021–present
 
 - 🌿[Sustainable Software Engineering (CS4415)](https://luiscruz.github.io/course_sustainableSE/).
-- [REMLA: Release Engineering for Machine Learning Applications (CS4295)](https://se.ewi.tudelft.nl/remla/)
+- [REMLA: Release Engineering for Machine Learning Applications (CS4295)](https://se.ewi.tudelft.nl/remla/) (until 2024)
 - [Literature Review (IN4306)](https://studiegids.tudelft.nl/a101_displayCourse.do?course_id=57458)
 - [AI in Practice: Preparing for AI (edX)](https://www.edx.org/course/ai-in-practice-preparing-for-ai)
 - [AI in Practice: Applying AI (edX)](https://www.edx.org/course/ai-in-practice-applying-ai)
