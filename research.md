@@ -143,7 +143,7 @@ I have/had the privilege of working with wonderful students:
 
 [Enrique Barba Roque]
 
-:   (TU Delft)  Building and monitorint green AI systems.
+:   (TU Delft)  Building and monitoring green AI systems.
     *Ongoing.*
 
 [Lorena Poenaru-Olaru]
