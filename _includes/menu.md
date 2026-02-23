@@ -11,7 +11,7 @@
     <a href="/courses"
        class="{% if page.permalink == '/courses' %}active{% endif %}">Teaching</a>
     |
-    <a href="/blog/"
+    <a href="/blog"
        class="{% if page.permalink == '/blog' %}active{% endif %}">Blog</a>
     ]
   </p>
