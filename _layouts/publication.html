@@ -14,7 +14,9 @@ layout: default
   <p class="text-muted">🏆 <strong>{{page.award}}</strong></p>
 {% endif %}
 <p><strong>Authors:</strong> {{page.author}}</p>
-<p><strong>Published in:</strong> {% if page.journal %}
+<p><strong>Published in:</strong> {% if page.booktitle %}
+        {{page.booktitle}}{% if page.pages %} (pp. {{page.pages}}){% endif %}.
+      {% elsif page.journal %}
         {{page.journal}}{% if page.pages %} (pp. {{page.pages}}){% endif %}.
       {% endif -%}
 </p>
